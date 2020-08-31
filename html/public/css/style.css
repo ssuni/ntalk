@@ -1,0 +1,2377 @@
+@charset "utf-8";
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-size: 15px;
+}
+
+.background_pink {
+    background-color: #fa1982 !important;
+}
+
+.nonDisplay {
+    display: none !important;
+}
+
+body {
+    /*width: 1250px;*/
+    height: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+img {
+    width: 225px;
+}
+
+.logo_img {
+    width: 225px;
+}
+
+#sms_confirm,
+#findId,
+#findPassword,
+#menuTap,
+#writeTime,
+#plusView {
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#warp,
+#sms_confirm,
+#termsSection,
+#s_register,
+#addRegister {
+    width: 1250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginSection,
+.sms_content,
+.termsContent,
+#s_essentialContainer,
+#addInputSection {
+    margin-top: 180px;
+    width: 711px;
+    margin-bottom: 180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#loginSection header {
+    float: left;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+
+#loginTitle,
+#sms_confirm>div>div.sms_title,
+#termsTitle,
+#s_essentialContainer>div.registerTitle,
+#s_essentialContainer>div.genderTitle {
+    font-family: Nanum Gothic;
+    font-size: 58.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+#timeLineContainer,
+#timeWrite {
+    width: 640px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+#popupProfile,
+#popupReport {
+    width: 380px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#warp header,
+section,
+/* .loginContainer, */
+/* #sms_confirm, */
+#s_register .s_title_logo,
+#s_register .s_essentialContainer,
+#findIdLogoContainer,
+#findPassLogoContainer,
+/*#writeTime,*/
+#menuTap .writeTimeLine {
+    display: flex !important;
+    align-items: center;
+    position: relative;
+}
+
+.textModify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#user,
+#psw,
+#phone,
+#certification,
+#age {
+    margin-left: 0px;
+}
+
+#user::placeholder,
+#psw::placeholder {
+    font-family: Nanum Gothic;
+    font-size: 14px;
+}
+
+#memberInfo label,
+#memberPw label,
+#sms_confirm>div>div.first_request>div>label,
+#sms_confirm>div>div.second_request>div.confirm_number>label,
+#s_Additional_information>div.s_nickContainer>label,
+#s_Additional_information>div.s_ageContainer>label,
+#s_Additional_information #first,
+#s_Additional_information #second {
+    margin-left: 90px;
+    border-bottom: 1px solid #dee3eb;
+    width: 520px;
+    height: 42px;
+    margin-bottom: 0px;
+}
+
+#phone {
+    width: 420px;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="password"] {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    width: 500px;
+    height: 40px;
+    font-family: Nanum Gothic;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: -0.48px;
+    text-align: left;
+}
+
+textarea {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid;
+}
+
+textarea:focus {
+    outline: none;
+    /* border-bottom: 2px solid red; */
+}
+
+/* input[type="password"] {
+    margin-top: 25px;
+    margin-left: 10px;
+} */
+#memberPw {
+    margin-top: 20px;
+}
+
+#memberInfo input::placeholder,
+#memberPw input::placeholder {
+    color: #cbcbcb;
+}
+
+input[type="text"] {
+    margin-left: 27px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    /* border-bottom: 2px solid red; */
+}
+
+#searchContainer {
+    margin-top: 30px;
+    margin-left: 90px;
+    font-family: Nanum Gothic;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: -0.28px;
+    text-align: left;
+    color: #323232;
+    width: 520px;
+    height: 25px;
+}
+
+#searchContainer>div.idMemory {
+    float: left;
+}
+
+#searchContainer>div.idSearch {
+    float: right;
+    color: #edeff3;
+}
+
+#searchContainer>div.idSearch span {
+    cursor: pointer;
+}
+
+#searchContainer>div.idMemory span,
+#searchContainer>div.idSearch span {
+    color: #323232;
+}
+
+#loginSection>form>div.memberInfoSubmit {
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.memberInfoSubmit label {
+    margin-bottom: 0px;
+}
+
+.memberInfoSubmit label input {
+    width: 520px;
+    height: 53px;
+    border-radius: 26.5px;
+    border: 1px solid #d6d6d6;
+    background-color: #d6d6d6;
+    cursor: pointer;
+    font-family: Nanum Gothic;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 0.67;
+    letter-spacing: -0.36px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#easyLogin .loginContainer .easyNaver,
+#easyLogin .loginContainer .easyGoogle,
+#easyLogin .loginContainer .easyKakao,
+#easyLogin .loginContainer .easyFacebook {
+    width: 250px;
+    height: 25px;
+    font-family: Nanum Gothic;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -0.28px;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+}
+
+#easyLogin .loginContainer .easyGoogle {
+    margin-bottom: 20px;
+}
+
+#easyLogin {
+    width: 520px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+#easyLogin .loginContainer div a,
+#snsRegister div div a {
+    cursor: pointer;
+    color: #323232;
+}
+
+#easyLogin .loginContainer .easyNaver a span,
+#easyLogin .loginContainer .easyGoogle a span,
+#easyLogin .loginContainer .easyKakao a span,
+#easyLogin .loginContainer .easyFacebook a span,
+#snsRegister div .easyGoogle a span,
+#snsRegister div .easyNaver a span,
+#snsRegister div .easyKakao a span,
+#snsRegister div .easyFacebook a span {
+    position: absolute;
+    left: 35px;
+}
+
+#easyLogin .loginContainer div a em,
+#snsRegister div div a em {
+    background-color: transparent;
+    background-image: url(//ntalk.me/img/ntalk_icon3.png);
+    background-repeat: no-repeat;
+    background-position: 0 -9999px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#easyLogin .loginContainer .easyNaver a em,
+#snsRegister>div>div.easyNaver>a>em {
+    background-position: -190px -256px;
+}
+
+#easyLogin .loginContainer .easyGoogle a em,
+#snsRegister>div>div.easyGoogle>a>em {
+    background-position: -240px -256px;
+}
+
+#easyLogin .loginContainer .easyKakao a em,
+#snsRegister>div>div.easyKakao>a>em {
+    background-position: -215px -256px;
+}
+
+#easyLogin .loginContainer .easyFacebook a em,
+#snsRegister>div>div.easyFacebook>a>em {
+    background-position: -165px -256px;
+}
+
+
+#termsinfo>div.infoTitle {
+    margin-bottom: 30px;
+}
+
+
+#termsinfo>div.infoContent {
+    margin-bottom: 50px;
+}
+
+#termsinfo>div.infoContent>span {
+    font-family: Dotum;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #323232;
+}
+
+#membershipJoin a {
+    text-decoration: none;
+    color: #323232;
+    font-weight: 700;
+}
+
+#membershipJoin>a>span {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+div.toggleWrap {
+    position: relative;
+    width: 110px;
+    height: 25px;
+    float: left;
+}
+
+#searchContainer>div.toggleWrap>div {
+    position: absolute;
+    top: -9px;
+}
+
+div.toggleWrap>span {
+    font-family: Nanum Gothic;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: -0.28px;
+    text-align: left;
+    color: #323232;
+    position: absolute;
+    left: 45px;
+    vertical-align: middle;
+    width: 70px;
+}
+
+#termsContainer>div>div>span {
+    width: 200px;
+}
+
+div.toggleWrap input {
+    display: none;
+}
+
+.toggleWrap>div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    width: 34px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.toggleWrap div label {
+    display: block;
+    width: 34px;
+    height: 20px;
+    box-sizing: border-box;
+    border-radius: 36px;
+    background: #f2f2f2;
+    transition: all 0.3s ease;
+}
+
+.toggleWrap div label>span {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: #d3d3d3;
+    /* box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25), 0 3px 3px 0 rgba(0, 0, 0, 0.15); */
+    /*transition: all 0.2s cubic-bezier(0.275, -0.45, 0.725, 1.45);*/
+    transition: all 1s ease;
+    background: #d3d3d3;
+    cursor: pointer;
+}
+
+.toggleWrap input:active+div label span,
+.toggleWrap input:checked+div label span {
+    background-color: #ed3886;
+}
+
+input:active+div label>span,
+input:checked+div label>span {
+    left: 14px;
+}
+
+/*****************문자 ***********************/
+
+#sms_confirm>div>div.sms_title {
+    margin-left: 90px;
+}
+
+#sms_confirm>div>div.p_info_text {
+    margin-top: 70px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+    font-family: Nanum Gothic;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+#sms_confirm>div>div.p_info_text p {
+    margin-bottom: 0px;
+}
+
+#sms_confirm>div>div.second_request>div.confirm_number>label>div {
+    display: inline-block;
+    color: #323232;
+}
+
+#sms_confirm>div>div.first_request>div>label {
+    margin-bottom: 20px;
+}
+
+#sms_confirm>div>div.second_request>div.request_input,
+#sms_confirm>div>div.second_request>div.re_number {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    margin-left: 90px;
+}
+
+#sms_confirm>div>div.second_request>div.send_number {
+    margin-left: 90px;
+}
+
+#sms_confirm>div>div.second_request>div.request_input>input[type="button"],
+#sms_confirm>div>div.second_request>div.re_number>input[type="button"] {
+    width: 520px;
+    height: 53px;
+    border-radius: 26.5px;
+    background-color: #4a4a4a;
+    border: 0px;
+    font-family: MalgunGothic;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0.8;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#sms_confirm>div>div.second_request>div.send_number>input[type="button"] {
+    width: 520px;
+    height: 53px;
+    border-radius: 26.5px;
+    border: solid 1px #fa1982;
+    background-color: #fa1982;
+    font-family: MalgunGothic;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0.8;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#time,
+#sms_confirm>div.sms_content>div.first_request>div>label>div>div.timer_text,
+#sms_confirm>div.sms_content>div.first_request>div>label>div {
+    display: inline-block;
+}
+
+#registerInfo,
+#termsinfo {
+    display: inline-block;
+    width: 426px;
+    height: 554px;
+    margin-top: 173px;
+    margin-left: 100px;
+    position: relative;
+    vertical-align: top;
+}
+
+#registerInfo>div.infoTitle>span {
+    font-family: RixHeadGulimPL;
+    font-size: 24px;
+    line-height: 1.15;
+    letter-spacing: -1.2px;
+    text-align: left;
+    color: #2a2a2a;
+    width: 273px;
+    height: 79px;
+}
+
+#registerInfo .infoTitle {
+    margin-bottom: 30px;
+}
+
+#registerInfo>div.infoContent {
+    margin-bottom: 68px;
+}
+
+#snsRegister div .easyGoogle,
+#snsRegister div .easyNaver,
+#snsRegister div .easyKakao,
+#snsRegister div .easyFacebook {
+    width: 210px;
+    height: 25px;
+    font-family: Dotum;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: normal;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+}
+
+#snsRegister div .easyGoogle,
+#snsRegister div .easyNaver {
+    margin-bottom: 20px;
+}
+
+/**************************************************************************************************/
+/**********************************  약관화면  ******************************************************/
+/**************************************************************************************************/
+#termsTitle {
+    margin-left: 90px;
+}
+
+.p_info_text p {
+    margin-bottom: 0px;
+}
+
+#termsSection>div>div.p_info_text {
+    margin-top: 72px;
+    margin-left: 90px;
+    margin-bottom: 76px;
+    font-family: Nanum Gothic;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+#terms_back {
+    z-index: 1100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+}
+
+#terms_wrap {
+    width: 1000px;
+    height: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: relative;
+}
+
+#terms_layer {
+    width: 950px;
+    height: 900px;
+    /*     margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+ */
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#terms_layer::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+#terms_layer::-webkit-scrollbar-thumb {
+    background: #cacaca;
+    border-radius: 2.5px;
+}
+
+#terms_wrap .closeBtn span {
+    width: 14px;
+    height: 14px;
+    background-position: -252px -196px !important;
+    position: absolute;
+    right: 19px;
+    top: 19px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#termsContainer {
+    margin-left: 90px;
+}
+
+#termsContainer .termsAll,
+#termsContainer .termsuse,
+#termsContainer .termsinfo,
+#termsContainer .termsminors,
+#termsContainer .termsAll .toggleWrap,
+#termsContainer .termsuse .toggleWrap,
+#termsContainer .termsinfo .toggleWrap,
+#termsContainer .termsminors .toggleWrap {
+    width: 520px;
+    height: 22px;
+}
+
+#termsContainer>div.termsAll>div>span {
+    font-weight: 700;
+}
+
+#termsContainer .termsAll .toggleWrap div,
+#termsContainer .termsuse .toggleWrap div,
+#termsContainer .termsinfo .toggleWrap div,
+#termsContainer .termsminors .toggleWrap div {
+    margin-top: 0px;
+    position: absolute;
+    top: -4px;
+}
+
+#termsContainer .termsAll .toggleWrap div label,
+#termsContainer .termsuse .toggleWrap div label,
+#termsContainer .termsinfo .toggleWrap div label,
+#termsContainer .termsminors .toggleWrap div label {
+    margin-bottom: 0px;
+}
+
+#termsContainer .termsAll {
+    margin-bottom: 30px;
+}
+
+#termsContainer .termsuse,
+#termsContainer .termsinfo {
+    margin-bottom: 15px;
+}
+
+#termsContainer .termsuse .toggleWrap .detail,
+#termsContainer .termsinfo .toggleWrap .detail,
+#termsContainer .termsminors .toggleWrap .detail {
+    position: unset;
+    float: right;
+    width: 50px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#termsBtn {
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+#termsBtn>button {
+    width: 520px;
+    height: 53px;
+    border-radius: 26.5px;
+    border: solid 1px #fa1982;
+    background-color: #fa1982;
+    font-family: MalgunGothic;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0.8;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+#termsSection #easyLogin {
+    margin-top: 0px;
+    margin-bottom: 180px;
+}
+
+#termsBtn>button a {
+    color: #ffffff;
+}
+
+#termsBtn>div {
+    width: 520px;
+    text-align: center;
+    font-family: Dotum;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+#termsBtn>div>a {
+    color: #323232;
+}
+
+#termsBtn>div>a>span.log {
+    color: #fa1982;
+    font-weight: 700;
+}
+
+#termsBtn>div>a>span.etc {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/********************************************* 가입화면 *************************************************/
+#s_essentialContainer>div.registerTitle,
+#s_essentialContainer>div.genderTitle {
+    margin-left: 90px;
+}
+
+#s_essentialContainer>div.p_info_text {
+    margin-top: 66px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+    font-family: RixHeadGulimPL;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -1.2px;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+#s_essentialContainer>div:nth-child(4) {
+    margin-bottom: 73px;
+}
+
+#member_register>div.s_idContainer>label,
+#member_register>div.s_pwContainer>label.s_pw,
+#member_register>div.s_pwContainer>label.s_pw_confirm {
+    margin-left: 90px;
+    border-bottom: 1px solid #dee3eb;
+    width: 520px;
+    height: 42px;
+    margin-bottom: 20px;
+    font-family: Dotum;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #cbcbcb;
+}
+
+#member_register>div.s_pwContainer>label.s_pw_confirm {
+    margin-bottom: 0px;
+}
+
+#member_register>div.s_pwContainer {
+    width: 710px;
+    height: 107px;
+}
+
+#id {
+    margin-left: 0px;
+    width: 450px;
+}
+
+#pw_confirm_result {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#pw_result {
+    width: 160px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: right;
+}
+
+#member_register>div.s_idContainer>label>input[type="button"]:nth-child(4) {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    color: #323232;
+}
+
+#nextBtn {
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+#nextBtn div {
+    width: 520px;
+    height: 53px;
+    border-radius: 26.5px;
+    border: solid 1px #fa1982;
+    background-color: #fa1982;
+    font-family: MalgunGothic;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0.8;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    line-height: 53px;
+}
+
+#sms_confirm input::placeholder,
+#s_register input::placeholder {
+    color: #cbcbcb;
+}
+
+/* #member_register>div.s_genderContainer>div.maleGender>div>div>label>span {
+    background-color: transparent;
+    background-image: url(//ntalk.me/img/s_man_g.png);
+    background-repeat: no-repeat;
+    background-position: 0 -9999px;
+} */
+#member_register>div.s_genderContainer>div.maleGender,
+#member_register>div.s_genderContainer>div.femaleGender {
+    display: inline-block;
+}
+
+#member_register>div.s_genderContainer>div.maleGender>div>div>label>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#member_register>div.s_genderContainer>div.maleGender>div>div>label,
+#member_register>div.s_genderContainer>div.femaleGender>div>div>label {
+    margin-bottom: 0px;
+}
+
+#member_register>div.s_genderContainer>div.maleGender>div>span {
+    margin-left: 196px;
+    font-family: RixHeadGulimPL;
+    font-size: 17px;
+    line-height: 1.62;
+    letter-spacing: -0.85px;
+    text-align: center;
+    color: #cbcbcb;
+}
+
+#member_register>div.s_genderContainer>div.femaleGender {
+    margin-left: 100px;
+}
+
+#member_register>div.s_genderContainer>div.femaleGender>div>div>label>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#member_register>div.s_genderContainer>div.femaleGender>div>span {
+    font-family: RixHeadGulimPL;
+    font-size: 17px;
+    line-height: 1.62;
+    letter-spacing: -0.85px;
+    text-align: center;
+    color: #cbcbcb;
+    margin-left: 73.5px;
+}
+
+#subBtn {
+    width: 520px;
+    height: 53px;
+    border-radius: 26.5px;
+    border: solid 1px #fa1982;
+    background-color: #fa1982;
+    margin-left: 90px;
+    margin-top: 51px;
+}
+
+#subBtn button {
+    width: 520px;
+    height: 53px;
+    font-family: MalgunGothic;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0.8;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #ffffff;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#firstCreate>div.crearteImg>img {
+    width: 338px;
+    height: 322px;
+    margin-left: 182px;
+}
+
+#firstCreate>div.createTitle {
+    margin-top: 54px;
+    margin-left: 163px;
+    margin-bottom: 33px;
+}
+
+#firstCreate>div.createTitle span {
+    font-family: Nanum Gothic;
+    font-size: 41px;
+    letter-spacing: -3.69px;
+    text-align: center;
+    color: #2a2a2a;
+}
+
+#firstCreate>div.createContent {
+    margin-left: 90px;
+    text-align: center;
+    margin-bottom: 69px;
+}
+
+#firstCreate>div.createContent span {
+    font-family: Nanum Gothic;
+    font-size: 17px;
+    letter-spacing: -0.85px;
+    color: #b8b8b8;
+}
+
+#firstCreate .startNtalk,
+#firstCreate .addProfile {
+    width: 250px;
+    height: 53px;
+    border-radius: 26.5px;
+    background-color: #d6d6d6;
+    margin-right: 20px;
+    text-align: center;
+    font-family: MalgunGothic;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0.8;
+    letter-spacing: -0.9px;
+    color: #ffffff;
+    line-height: 53px;
+    display: inline-block;
+    cursor: pointer;
+    border: 0px;
+}
+
+#firstCreate .addProfile {
+    background-color: #fa1982;
+}
+
+#firstCreate .startNtalk a {
+    color: #ffffff;
+}
+
+#firstCreate {
+    display: inline-block;
+}
+
+#firstCreate .addProfile {
+    margin-right: 0px;
+}
+
+#firstCreate .startNtalk {
+    margin-left: 95px;
+}
+
+.backColor {
+    background-color: #4a4a4a !important;
+}
+
+#addProfileSection {
+    margin-top: 180px;
+    width: 711px;
+    margin-bottom: 180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#s_Additional_information>div.addInfoTitle {
+    margin-left: 90px;
+    margin-bottom: 71px;
+    font-family: RixHeadGulimPL;
+    font-size: 58.5px;
+    letter-spacing: -2.93px;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+#s_Additional_information>div.addInfoContent {
+    font-family: RixHeadGulimPL;
+    font-size: 24px;
+    letter-spacing: -1.2px;
+    text-align: left;
+    color: #2a2a2a;
+    margin-left: 90px;
+    margin-bottom: 60.5px;
+}
+
+#nickname {
+    margin-left: 12px;
+    width: 438px;
+}
+
+#s_Additional_information>div.s_nickContainer>label,
+#s_Additional_information>div.s_ageContainer>label {
+    margin-bottom: 20px;
+}
+
+#age {
+    margin-left: 12px;
+}
+
+#register_add input::placeholder {
+    color: #cbcbcb;
+}
+
+#s_Additional_information>div.s_nickContainer>label>input[type="button"]:nth-child(3) {
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#s_Additional_information #first {
+    margin-bottom: 20px;
+}
+
+#s_Additional_information #first,
+#s_Additional_information #second {
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #ffffff;
+    color: rgba(141, 141, 141, 0.5);
+    font-size: 12px !important;
+    background: url() no-repeat 95% 50%;
+    border: unset;
+    border-radius: 0px;
+    border-bottom: 1px solid #dee3eb;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#s_Additional_information #first option,
+#s_Additional_information #second option {
+    font-size: 12px !important;
+    color: black;
+}
+
+#selectBtn {
+    margin-left: 90px;
+    position: relative;
+}
+
+#selectBtn .completeBtn,
+#selectBtn .nextBtn {
+    display: inline-block;
+    width: 250px;
+    height: 53px;
+    border-radius: 26.5px;
+    background-color: #d6d6d6;
+    font-family: MalgunGothic;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 53px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#selectBtn .nextBtn {
+    background-color: #fa1982;
+}
+
+#selectBtn .completeBtn span {
+    color: #ffffff;
+}
+
+#s_Additional_information #second {
+    margin-bottom: 70px;
+}
+
+#selectBtn .completeBtn {
+    top: 174px;
+    border: 0px;
+}
+
+#selectBtn .nextBtn {
+    top: 174px;
+    left: 270px;
+}
+
+#s_joinContainer>div.ImgTitle {
+    font-family: RixHeadGulimPL;
+    font-size: 58.5px;
+    letter-spacing: -2.93px;
+    text-align: left;
+    color: rgb(42, 42, 42);
+    margin-left: 90px;
+}
+
+#s_joinContainer>div.imgContent {
+    margin-top: 72px;
+    margin-left: 90px;
+    margin-bottom: 68px;
+    font-family: RixHeadGulimPL;
+    font-size: 24px;
+    letter-spacing: -1.2px;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+#s_joinContainer>div.imgUpdate {
+    position: relative;
+    margin-bottom: 88px;
+}
+
+#s_joinContainer>div.imgUpdate>img {
+    width: 210px;
+    height: 210px;
+    margin-left: 250px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+#s_joinContainer>div.imgUpdate>label,
+#s_joinContainer>div.imgUpdate>div span {
+    background-color: transparent;
+    background-image: url(//ntalk.me/img/+_btn_red.svg);
+    background-repeat: no-repeat;
+    background-position: 0 -9999px;
+}
+
+#s_joinContainer>div.imgUpdate>label {
+    width: 44px;
+    height: 44px;
+    background-position: 0 0;
+    position: absolute;
+    top: 155px;
+    left: 400px;
+    cursor: pointer;
+}
+
+#s_joinContainer>div.imgUpdate>div span {
+    width: 44px;
+    height: 44px;
+    background-position: 0 0;
+    position: absolute;
+    top: 155px;
+    left: 400px;
+    cursor: pointer;
+    transform: rotate(225deg);
+    z-index: 1000;
+    display: inline-block;
+}
+
+.imgRotate {
+    animation: spin 1s;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(224deg);
+    }
+}
+
+.imgRotate_reverse {
+    animation: spin_reverse 1s;
+}
+
+@keyframes spin_reverse {
+    0% {
+        transform: rotate(225deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#profile {
+    display: none;
+}
+
+#submitBtn {
+    margin-left: 90px;
+}
+
+#submitBtn>div.skipBtn,
+#submitBtn>div.joinBtn {
+    display: inline-block;
+    width: 250px;
+    height: 53px;
+    border-radius: 26.5px;
+    background-color: #d6d6d6;
+    cursor: pointer;
+}
+
+#submitBtn>div.skipBtn {
+    margin-right: 20px;
+}
+
+#submitBtn>div.skipBtn button,
+#submitBtn>div.joinBtn button {
+    border: 0px;
+    background-color: transparent;
+    width: 250px;
+    height: 53px;
+    line-height: 53px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 26.5px;
+    font-family: MalgunGothic;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -0.9px;
+    text-align: center;
+}
+
+#submitBtn>div.joinBtn button {
+    background-color: #fa1982;
+}
+
+/* #s_essentialContainer .s_idContainer label,
+#s_essentialContainer .s_nickContainer label {
+    margin-left: 101px;
+}
+
+#s_essentialContainer .s_pwContainer label {
+    display: block;
+}
+
+#s_essentialContainer .s_pwContainer label input,
+#s_essentialContainer .s_pwContainer label p,
+#s_essentialContainer .s_genderContainer label,
+#s_essentialContainer .s_fav_genderContainer label,
+#s_essentialContainer .s_ageContainer label,
+#s_essentialContainer .s_ageContainer label p,
+#s_Additional_information .s_area {
+    margin-left: 128px;
+}
+
+#s_essentialContainer .s_pwContainer label p,
+#s_essentialContainer .s_ageContainer label p {
+    font-size: 11px;
+    color: red;
+}
+
+#s_essentialContainer .s_fav_genderContainer label input,
+#s_essentialContainer .s_genderContainer label input,
+#s_essentialContainer .s_nickContainer label input,
+#s_essentialContainer .s_ageContainer label input,
+#s_Additional_information .s_area {
+    margin-top: 20px;
+}
+
+#s_Additional_information .s_area .first_location,
+#s_Additional_information .s_area .second_location {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#s_essentialContainer .s_joinContainer label input {
+    width: 300px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#addInfo {
+    border-bottom: 2px solid red;
+}*/
+
+#termsinfo>div.infoTitle>span {
+    font-family: RixHeadGulimPL;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -1.2px;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+/********************************************* 아이디 찾기 ******************************************************/
+#findIdBack,
+#findPwBack,
+#memberInfoBack,
+#phChangeBack {
+    z-index: 1100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+}
+
+#findIdLayer,
+#findPwLayer,
+#memberInfoLayer,
+#phChangeLayer {
+    border-radius: 8px;
+    box-shadow: 0px 10px 9.9px 0.1px rgba(51, 51, 51, 0.23);
+    background-color: #ffffff;
+    position: absolute;
+    top: 40%;
+}
+
+#findIdLayer {
+    width: 466px;
+    height: 282px;
+}
+
+#findPwLayer {
+    width: 466px;
+    height: 324px;
+}
+
+#memberInfoLayer {
+    width: 506px;
+    height: 474px;
+}
+
+#phChangeLayer {
+    width: 506px;
+    height: 282px;
+}
+
+#idHeader,
+#pwHeader {
+    width: 466px;
+    height: 30px;
+    margin-top: 49px;
+    margin-bottom: 30px;
+}
+
+#idHeader>div.findIdTitle,
+#pwHeader>div.findpwTitle {
+    width: 466px;
+    height: 30px;
+    position: relative;
+}
+
+#idHeader>div.findIdTitle>span,
+#pwHeader>div.findpwTitle>span {
+    font-family: RixHeadGulimPM;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #5d6064;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#idHeader>div.closeBtn>span,
+#pwHeader>div.closeBtn>span,
+#idcontent .resultContent .resultId div span,
+#terms_wrap .closeBtn span {
+    background-color: transparent;
+    background-image: url(//ntalk.me/img/ntalk_icon3.png);
+    background-repeat: no-repeat;
+    background-position: 0 -9999px;
+}
+
+
+#idHeader>div.closeBtn>span,
+#pwHeader>div.closeBtn>span {
+    width: 14px;
+    height: 14px;
+    background-position: -252px -196px;
+    position: absolute;
+    right: 19px;
+    top: 19px;
+    cursor: pointer;
+}
+
+#idcontent,
+#pwcontent {
+    margin-bottom: 30px;
+}
+
+#idcontent>div.requestContent>div.phoneNum>div.phoneTitle,
+#idcontent>div.requestContent>div.confirmNum>div.confirmTitle,
+#pwcontent>div.requestContent>div.userId>div.idTitle,
+#pwcontent>div.requestContent>div.phoneNum>div.phoneTitle,
+#pwcontent>div.requestContent>div.confirmNum>div.confirmTitle,
+#pwcontent>div.resultContent>div.newPwContainer>div.newPwTitle,
+#pwcontent>div.resultContent>div.newPwConfirmContainer>div.newPwConfirmTitle {
+    margin-left: 50px;
+    margin-right: 30px;
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #5d6064;
+    display: inline-block;
+}
+
+#pwcontent>div.requestContent>div.userId>div.idTitle {
+    margin-right: 59px;
+}
+
+#idcontent>div.requestContent>div.phoneNum>div.phoneContent,
+#idcontent>div.requestContent>div.confirmNum>div.confirmContent,
+#pwcontent>div.requestContent>div.userId>div.idContent,
+#pwcontent>div.requestContent>div.phoneNum>div.phoneContent,
+#pwcontent>div.requestContent>div.confirmNum>div.confirmContent,
+#pwcontent>div.resultContent>div.newPwContainer>div.newPwContent,
+#pwcontent>div.resultContent>div.newPwConfirmContainer>div.newPwConfirmContent {
+    display: inline-block;
+}
+
+#idcontent>div.requestContent>div.phoneNum>div.phoneContent>label,
+#idcontent>div.requestContent>div.confirmNum>div.confirmContent>label,
+#pwcontent>div.requestContent>div.userId>div.idContent>label,
+#pwcontent>div.requestContent>div.phoneNum>div.phoneContent>label,
+#pwcontent>div.requestContent>div.confirmNum>div.confirmContent>label,
+#pwcontent>div.resultContent>div.newPwContainer>div.newPwContent>label,
+#pwcontent>div.resultContent>div.newPwConfirmContainer>div.newPwConfirmContent>label {
+    width: 271px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+
+#idPhone,
+#pw_id,
+#pwPhone,
+#newPw,
+#newPwConfirm {
+    width: 258px;
+    height: 28px;
+    margin-left: 11px;
+}
+
+#idPhone::placeholder,
+#pwPhone::placeholder,
+#idconfirm::placeholder,
+#pwconfirm::placeholder,
+#pw_id::placeholder,
+#newPw::placeholder,
+#newPwConfirm::placeholder {
+    font-family: Dotum;
+    font-size: 11px;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #cbcbcb;
+}
+
+#idcontent>div.requestContent>div.confirmNum>div.confirmContent,
+#pwcontent>div.requestContent>div.confirmNum>div.confirmContent {
+    margin-top: 12px;
+}
+
+#idcontent>div.requestContent>div.confirmNum>div.confirmTitle,
+#pwcontent>div.requestContent>div.confirmNum>div.confirmTitle {
+    margin-right: 46px;
+}
+
+#idconfirm,
+#pwconfirm {
+    width: 210px;
+    height: 28px;
+    margin-left: 11px;
+    display: inline-block;
+}
+
+#idcontent>div.requestContent>div.confirmNum>div.confirmContent>label>div,
+#idcontent>div.requestContent>div.confirmNum>div.confirmContent>label>div>div.timer_text,
+#pwcontent>div.requestContent>div.confirmNum>div.confirmContent>label>div,
+#pwcontent>div.requestContent>div.confirmNum>div.confirmContent>label>div>div.timer_text {
+    display: inline-block;
+}
+
+#idcontent>div.requestContent>div.confirmNum>div.confirmContent>label>div,
+#pwcontent>div.requestContent>div.confirmNum>div.confirmContent>label>div {
+    float: right;
+    margin-top: 6px;
+    margin-right: 11px;
+    margin-bottom: 6px;
+    font-family: Dotum;
+    font-size: 11px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f71581;
+}
+
+#idBtn .requestSet .requestContainer,
+#idBtn .requestSet .subBtn,
+#idBtn .submitSet .loginBtn,
+#idBtn .submitSet .pwFindBtn {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#idBtn .requestSet .requestContainer,
+#idBtn .submitSet .loginBtn {
+    margin-left: 67px;
+}
+
+#idBtn .requestSet .requestContainer .requestBtn,
+#idBtn .requestSet .requestContainer .requestReBtn,
+#idBtn .submitSet .loginBtn {
+    width: 161px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: #4a4a4a;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+#idBtn .requestSet .requestContainer .requestReBtn {
+    background-color: #4a4a4a;
+}
+
+#idBtn .requestSet .subBtn,
+#idBtn .submitSet .pwFindBtn {
+    width: 161px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: #f71581;
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+#idcontent .resultContent .resultId {
+    margin-bottom: 30px;
+}
+
+.id_selected {
+    border: 1px solid #f71581 !important;
+}
+
+#idcontent .resultContent .resultId div {
+    width: 366px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #fbfbfb;
+    margin-left: 50px;
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px solid #fbfbfb;
+}
+
+#idcontent .resultContent .resultId .twoId,
+#idcontent .resultContent .resultId .threeId {
+    margin-top: 10px;
+}
+
+#idcontent .resultContent .resultId div span {
+    display: inline-block;
+    margin-left: 97px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+    width: 25px;
+    height: 25px;
+}
+
+#idcontent .resultContent .resultId div .snsImg.kakao {
+    background-position: -215px -256px;
+}
+
+#idcontent .resultContent .resultId div .snsImg.google {
+    background-position: -240px -256px;
+}
+
+#idcontent .resultContent .resultId div .snsImg.naver {
+    background-position: -190px -256px;
+}
+
+#idcontent .resultContent .resultId div .snsImg.facebook {
+    background-position: -165px -256px;
+}
+
+#idcontent .resultContent .resultId div .findUserId {
+    font-family: Dotum;
+    font-size: 12px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8d8d8d;
+    width: 135px;
+    height: 38px;
+    margin-right: 97px;
+    margin-left: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 38px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#idcontent>div.resultContent>div.resultText {
+    text-align: center;
+}
+
+#idcontent>div.resultContent>div.resultText>span {
+    width: 278px;
+    height: 29px;
+    font-family: Dotum;
+    font-size: 12px;
+    text-align: center;
+    color: #8d8d8d;
+    font-weight: 700;
+}
+
+/* #findIdContent .titleText,
+#passContent .titleText {
+    text-align: center;
+}
+
+#findIdContent .phoneCertification div label {
+    padding-left: 104.36px;
+}
+
+#findIdContent>div.certificationNumber>div.confrim_number>label {
+    padding-left: 119.36px;
+}
+
+#findIdContent .phoneCertification .request_input,
+#findIdContent>div.certificationNumber>div.re_number,
+#submit_value,
+#findIdFooter>div>div.goMain {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#findIdContent>div.phoneCertification>div.p_info_text,
+#findIdContent>div.certificationNumber>div.confrim_number>div.n_info_text {
+    margin-left: 85px;
+}
+
+#findIdContent .phoneCertification {}
+
+#findIdContent .phoneCertification .p_info_text,
+#findIdContent .certificationNumber .confrim_number .n_info_text,
+#passContent .firstInputContainer .p_info_text,
+#passContent .firstInputContainer .certificationNumber .n_info_text,
+#passwordInput div .s_pw p {
+    font-size: 12px;
+}
+
+#findIdFooter>div>div.response>input[type="text"] {
+    margin-left: 165.5px;
+} */
+
+/********************************************* 비밀번호 찾기 *************************************************/
+#pwcontent>div.requestContent>div.userId {
+    margin-bottom: 12px;
+}
+
+#pwcontent>div.requestContent,
+#pwcontent>div.resultContent {
+    margin-bottom: 30px;
+}
+
+/* #newPwConfirm {
+    width: 130px;
+} */
+#pwcontent>div.resultContent>div.newPwConfirmContainer {
+    width: 466px;
+    height: 51px;
+}
+
+#pwcontent>div.resultContent>div.newPwConfirmContainer>div.newPwConfirmTitle {
+    vertical-align: top;
+    margin-top: 6px;
+}
+
+#new_pw_result {
+    width: 270px;
+    font-size: 10px;
+    margin-top: 5px;
+    color: #f71581;
+}
+
+#new_pw_result span {
+    margin-left: 10px;
+}
+
+#idBtn>div.requestContainer,
+#idBtn>div.requestContainer .requestBtn,
+#idBtn>div.requestContainer .requestReBtn,
+#idBtn>div.subBtn,
+#idBtn>div.sub_reset {
+    display: inline-block;
+    width: 161px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: #aeaeae;
+    font-family: Nanum goThic;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#idBtn>div.requestContainer {
+    margin-left: 68px;
+    margin-right: 9px;
+}
+
+#idBtn>div.subBtn,
+#idBtn>div.sub_reset {
+    background-color: #f71581;
+}
+
+#idBtn>div.sub_reset {
+    margin-left: 153px;
+    background-color: #aeaeae;
+}
+
+#pwcontent>div.resultContent>div.newPwContainer>div.newPwTitle {
+    margin-right: 41px;
+}
+
+#pwcontent>div.resultContent>div.newPwContainer {
+    margin-bottom: 12px;
+}
+
+#idBtn>div.requestContainer>div.requestReBtn {
+    background-color: #4a4a4a;
+}
+
+/* #passContent .firstInputContainer .idInput label,
+#passContent .firstInputContainer .phoneInput label,
+#passContent .firstInputContainer .certificationNumber .confrim_number label,
+#passwordInput div .s_pw,
+#passwordInput div .s_pw_confirm,
+#passwordInput>div>label.s_pw>p {
+    padding-left: 70px;
+}
+
+#passwordInput>div>label.s_pw>p {
+    color: red;
+}
+
+#passContent .firstInputContainer .idInput label input {
+    margin-left: 70px;
+}
+
+#passContent .firstInputContainer .idInput,
+#passContent .firstInputContainer .phoneInput {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#passContent .firstInputContainer .certificationNumber .confrim_number {
+    margin-top: 50px;
+}
+
+#passContent .firstInputContainer .certificationNumber .confrim_number label input {
+    margin-left: 55px;
+}
+
+#passContent .firstInputContainer .p_info_text,
+#passContent .firstInputContainer .certificationNumber .n_info_text {
+    margin-left: 60px;
+}
+
+#passContent .firstInputContainer .certificationNumber .re_number,
+#submit_request {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#passwordInput div .s_pw input {
+    margin-left: 60px;
+}
+
+#passwordInput div .s_pw_confirm input {
+    margin-left: 22px;
+} */
+
+/***************************** 타임라인 / 유저리스트 ***************************************************/
+#timeLineContainer .timeLineContent,
+#userList .listContent {
+    padding-left: 0px;
+    border-top: 1px solid #ebeef3;
+}
+
+#timeLineContainer li,
+#userList li {
+    list-style: none;
+}
+
+#timeLineContainer .timeLineContent li,
+#userList .listContent li {
+    border-bottom: 1px solid #ebeef3;
+}
+
+#timeLineContainer img,
+#userList img {
+    width: 50px;
+}
+
+#userInfo div {
+    display: inline-block;
+    margin: 10px;
+}
+
+#timeLineContainer #userInfo {
+    /*border-bottom: 1px solid #bebebe;*/
+}
+
+#userInfo .userReport,
+#userInfo .userModify,
+#userInfo .userDelete {
+    float: right;
+}
+
+#userInfo .userReport img,
+#userInfo .userModify img,
+#userInfo .userDelete img {
+    width: 20px;
+}
+
+#timeLineContainer #userInfo .userId {
+    /*height: 53px;*/
+}
+
+#timeLineContainer .userComment {
+    margin: 10px;
+}
+
+#timeLineContainer .pagination {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#writeTime {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.noresize {
+    resize: none;
+}
+
+#writeTime input,
+#timeLineContainer ul .number .textModify input[type="button"] {
+    height: 48px;
+    margin-left: 6px;
+}
+
+#userInfo .userImg img,
+#userInfo .userId img,
+#userInfo .userReport img,
+#userInfo .userDelete img,
+#userInfo .userModify img {
+    cursor: pointer;
+}
+
+#plusView {
+    margin-bottom: 15px;
+    background-color: #708090;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+#plusView div {
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/********************************** 타임라인 글쓰기 페이지  ******************************************/
+
+/**************************************** 프로필 팝업  ************************************/
+#popupProfile,
+#popupReport {
+    position: absolute;
+    z-index: 3;
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#popupProfile .profilePopupContainer .profileInfo .profileTitle img {
+    width: 25px;
+    cursor: pointer;
+}
+
+#popupProfile .profilePopupContainer .profileInfo .profileImg img {
+    width: 75px;
+    margin-left: 152.5px;
+    cursor: pointer;
+}
+
+#popupProfile .profilePopupContainer .profileEvent .talk img {
+    width: 50px;
+    cursor: pointer;
+}
+
+#popupProfile .profilePopupContainer .profileInfo {
+    width: 380px;
+    height: 350px;
+}
+
+#popupProfile .profilePopupContainer .profileInfo .profileTitle {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+#popupProfile .profilePopupContainer .profileInfo .profileImg {
+    padding-top: 220px;
+}
+
+#popupProfile .profilePopupContainer .profileInfo .profileId {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#popupProfile .profilePopupContainer .profileEvent {
+    text-align: center;
+    border-top: 1px solid #888;
+    padding-top: 15px;
+}
+
+/*****************************신고하기 팝업 *********************************************/
+#popupReport .reportPopupContainer {
+    text-align: center;
+}
+
+#popupReport .reportPopupContainer .reportTitle {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#popupReport .reportPopupContainer .reportText {
+    font-size: 12px;
+}
+
+#popupReport .reportPopupContainer .reportButtonContainer .reportCheckContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#popupReport .reportPopupContainer .reportButtonContainer .reportCheckContainer .reportButton {
+    text-align: left;
+    margin-top: 15px;
+    padding-left: 60px;
+}
+
+#report>div.reportCheckContainer>div:nth-child(1) {
+    margin-top: 0px !important;
+}
+
+#popupReport .reportPopupContainer .reportButtonContainer .reportCheckContainer .reportButton span {
+    margin-left: 5px;
+}
+
+#report .buttonContainer {
+    margin-top: 30px;
+}
+
+#report .buttonContainer input {
+    width: 100px;
+    height: 50px;
+}
+
+#report .buttonContainer input[type="button"] {
+    margin-left: 35px;
+}
+
+/******************************** 채팅 팝업  ********************************************************/
+#chatContainer,
+#chatContainer .message_content {
+    width: 450px;
+    height: 560px;
+}
+
+#message {
+    width: 430px;
+    height: 510px;
+    font-size: 11px;
+}
+
+#messages li {
+    list-style: none;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#messages .ntc {
+    line-height: 18px;
+    font-size: 7px;
+    text-align: center;
+}
+
+#messages .leavedRoom {
+    float: left;
+    text-align: center;
+}
+
+#messages {
+    height: 100%;
+    justify-content: end;
+    padding: 10px;
+    overflow: auto;
+}
+
+#messages .partner {
+    float: left;
+}
+
+#messages .me {
+    float: right;
+    text-align: right;
+}
+
+#partnercontent {
+    display: inline-block;
+}
+
+#partnercontent .partnerContent {
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: beige;
+    padding: 5px;
+}
+
+#meContainer .read {
+    display: inline-block;
+    color: red;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+#meContainer .content {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: beige;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#partnercontent .partnerContent {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#partnerContainer .partnerImg {
+    width: 50px;
+    float: left;
+}
+
+#partnerContainer img {
+    width: 50px;
+}
+
+#patnercontent {
+    float: left;
+}
+
+#chatContainer .message_content .inputContainer {
+    margin-bottom: 13px;
+}
+
+#chatContainer .message_content .inputContainer .file_up {
+    display: inline-block;
+}
+
+#chatContainer .message_content .inputContainer .file_up img {
+    margin-left: 5px;
+}
+
+#input,
+#btn {
+    margin-left: 13px;
+}
+
+.typing {
+    width: 100%;
+    font-size: 6px;
+    font-weight: 400;
+    background-color: floralwhite;
+    text-align: right;
+}
+
+#chatContainer div .inputContainer form {
+    display: inline-block;
+}
+
+#file_input {
+    display: none;
+}
+
+#confirmContainer {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    z-index: 3;
+    border: 1px solid red;
+    background-color: white;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.conTitle {
+    line-height: 75px;
+    height: 75px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.conTitle span {
+    vertical-align: bottom;
+}
+
+.conContent {
+    height: 30px;
+    color: #979ba0;
+    font-weight: 400;
+}
+
+.conTrue,
+.conFalse {
+    cursor: pointer;
+    display: inline-block;
+    width: 124px;
+    height: 45px;
+    line-height: 45px;
+    border-top: 1px solid #c3cad1;
+    font-weight: 700;
+}
+
+.conTrue {
+    border-right: 1px solid #c3cad1;
+}
+
+#partnercontent .partnerContent img,
+#meContainer .content img {
+    width: 175px;
+    cursor: pointer;
+}
+
+/******************************* 로딩        *****************************************************/
+.bubblingG {
+    text-align: center;
+    width: 80px;
+    height: 50px;
+}
+
+.bubblingG span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    margin: 25px auto;
+    background: #000000;
+    -moz-border-radius: 50px;
+    -moz-animation: bubblingG 1.3s infinite alternate;
+    -webkit-border-radius: 50px;
+    -webkit-animation: bubblingG 1.3s infinite alternate;
+    -ms-border-radius: 50px;
+    -ms-animation: bubblingG 1.3s infinite alternate;
+    -o-border-radius: 50px;
+    -o-animation: bubblingG 1.3s infinite alternate;
+    border-radius: 50px;
+    animation: bubblingG 1.3s infinite alternate;
+}
+
+#bubblingG_1 {
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    -ms-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+#bubblingG_2 {
+    -moz-animation-delay: 0.39s;
+    -webkit-animation-delay: 0.39s;
+    -ms-animation-delay: 0.39s;
+    -o-animation-delay: 0.39s;
+    animation-delay: 0.39s;
+}
+
+#bubblingG_3 {
+    -moz-animation-delay: 0.78s;
+    -webkit-animation-delay: 0.78s;
+    -ms-animation-delay: 0.78s;
+    -o-animation-delay: 0.78s;
+    animation-delay: 0.78s;
+}
+
+@-moz-keyframes bubblingG {
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color: #000000;
+        -moz-transform: translateY(0);
+    }
+
+    100% {
+        width: 24px;
+        height: 24px;
+        background-color: #ffffff;
+        -moz-transform: translateY(-21px);
+    }
+}
+
+@-webkit-keyframes bubblingG {
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color: #000000;
+        -webkit-transform: translateY(0);
+    }
+
+    100% {
+        width: 24px;
+        height: 24px;
+        background-color: #ffffff;
+        -webkit-transform: translateY(-21px);
+    }
+}
+
+@-ms-keyframes bubblingG {
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color: #000000;
+        -ms-transform: translateY(0);
+    }
+
+    100% {
+        width: 24px;
+        height: 24px;
+        background-color: #ffffff;
+        -ms-transform: translateY(-21px);
+    }
+}
+
+@-o-keyframes bubblingG {
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color: #000000;
+        -o-transform: translateY(0);
+    }
+
+    100% {
+        width: 24px;
+        height: 24px;
+        background-color: #ffffff;
+        -o-transform: translateY(-21px);
+    }
+}
+
+@keyframes bubblingG {
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color: #000000;
+        transform: translateY(0);
+    }
+
+    100% {
+        width: 24px;
+        height: 24px;
+        background-color: #ffffff;
+        transform: translateY(-21px);
+    }
+}
+
+#timeLineContainer .bubblingG {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

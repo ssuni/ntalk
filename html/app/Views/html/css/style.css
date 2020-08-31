@@ -1,0 +1,16 @@
+@charset "utf-8";
+#warp {
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 225px;
+    height: 225px;
+}
+.logo_img {
+    width: 225px;
+    height:225px;
+}
+body {
+    width: 970px;
+}

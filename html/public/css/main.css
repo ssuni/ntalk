@@ -1,0 +1,3947 @@
+#mainContent,
+#myPage {
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: -0.6px;
+    text-align: left;
+    position: relative;
+}
+
+.timecolor {
+    color: #f71581 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+#mainContent,
+#titleContainer,
+#naviContainer {
+    width: 100%;
+    border-bottom: 1px solid #dee3eb;
+}
+
+#titleContainer,
+#naviContainer {
+    display: flex;
+}
+
+#header,
+#navibar,
+#bestContainer,
+#cmain,
+#myPage,
+#footer_h>div.footerMenu,
+#footer_c>div {
+    width: 1250px;
+    height: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center;
+    align-items: center;
+}
+
+#cmain {
+    vertical-align: top;
+}
+
+#header .wrapper {
+    margin-top: 5px;
+    height: 90px;
+    vertical-align: middle;
+}
+
+#header .wrapper .headerImg,
+#header .wrapper .headerbanner {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#header .wrapper .headerImg {
+    height: 43px;
+}
+
+#header .wrapper .ntalkNotice {
+    margin-left: 24px;
+    font-family: Dotum;
+    font-size: 12px;
+    text-align: left;
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40.5px;
+}
+
+.Rounded-Rectangle-1334 {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: #515151;
+    margin-right: 9px;
+    margin-bottom: 3px;
+}
+
+.noticeInfo {
+    width: 64px;
+    height: 12px;
+    display: inline-block;
+    color: #323232;
+    letter-spacing: -0.6px;
+    font-weight: 700;
+}
+
+.noticeContent {
+    width: 357px;
+    height: 12px;
+    display: inline-block;
+    color: #555555;
+}
+
+#header .wrapper .headerImg img {
+    width: 43px;
+    height: 43px;
+}
+
+#header .wrapper .headerbanner {
+    margin-top: 0px;
+}
+
+#header .wrapper .headerbanner {
+    float: right;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+.bannerImg {
+    display: inline-block;
+    margin-right: 15px;
+    width: 52px;
+    height: 50px;
+}
+
+.bannerContent {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9.5px;
+}
+
+.bannerContent .first {
+    color: #323232;
+    font-weight: 700;
+}
+
+.bannerContent .second {
+    color: #5d6064;
+}
+
+.bannerContent .first,
+.bannerContent .second {
+    line-height: 17px;
+}
+
+#naviContainer {
+    border-bottom: 1px solid #f71581;
+}
+
+#navibar div {
+    display: inline-block;
+    height: 71px;
+    vertical-align: middle;
+}
+
+#navibar .mainLoginContainer .logoutPanel .userProfileImg img {
+    width: 42px;
+    height: 42px;
+    border-radius: 20px;
+    margin-top: 14.5px;
+    margin-right: 10px;
+}
+
+#navibar .mainLoginContainer .logoutPanel .userInfo {
+    margin-right: 10px;
+}
+
+#navibar .mainLoginContainer .logoutPanel .userInfo .nick {
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 0.83;
+    text-align: left;
+    color: #323232;
+}
+
+#navibar .mainLoginContainer .logoutPanel .userLocation {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    color: #cbcbcb;
+}
+
+#navibar .mainLoginContainer .logoutPanel .userInfo .nick,
+#navibar .mainLoginContainer .logoutPanel .userInfo .age,
+#navibar .mainLoginContainer .logoutPanel .userLocation .local1,
+#navibar .mainLoginContainer .logoutPanel .userLocation .local2 {
+    line-height: 71px;
+}
+
+#navibar .mainLoginContainer .logoutPanel .userLocation .local1 {
+    margin-right: 6px;
+}
+
+#navibar .mainLoginContainer .logoutPanel .userLocation .local2 {
+    margin-right: 24px;
+}
+
+#navibar .mainLoginContainer .logoutPanel .userMyPage {
+    width: 74px;
+    height: 27px;
+    border-radius: 8px;
+    border: solid 1px #dee3eb;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+#navibar .mainLoginContainer .logoutPanel .userMyPage a {
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 27px;
+    letter-spacing: -0.72px;
+    color: #555555;
+    width: 74px;
+    height: 27px;
+    margin-right: 0px;
+    text-align: center;
+    display: block;
+}
+
+#navibar .mainLoginContainer .logoutPanel .logout {
+    width: 64px;
+    height: 27px;
+    border-radius: 8px;
+    border: solid 1px #dee3eb;
+    cursor: pointer;
+}
+
+#navibar .mainLoginContainer .logoutPanel .logout a {
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 27px;
+    letter-spacing: -0.72px;
+    text-align: left;
+    color: #555555;
+    margin-right: 0px;
+    text-align: center;
+    display: block;
+}
+
+.man {
+    color: #3477e0 !important;
+    letter-spacing: 0px;
+}
+
+.woman {
+    color: #f71581 !important;
+}
+
+#navibar div a {
+    font-family: RixHeadGulimPM;
+    font-size: 18px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 71px;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #2a2a2a;
+    margin-right: 57px;
+}
+
+.mainLoginContainer {
+    float: right;
+}
+
+#navibar .mainLoginContainer .loginPanel div a {
+    width: 43px;
+    height: 11px;
+    font-family: Nanum Gothic;
+    font-size: 14px;
+    line-height: 71px;
+    letter-spacing: -0.28px;
+    text-align: left;
+    color: #5d6064;
+    margin-right: 27px;
+    font-weight: 400;
+}
+
+#navibar>div.mainLoginContainer>div.loginPanel>div {
+    font-weight: 400 !important;
+}
+
+#navibar>div.mainLoginContainer>div.loginPanel>div:nth-child(2),
+#navibar>div.mainLoginContainer>div.loginPanel>div:nth-child(3) {
+    /* width: 43px; */
+    /* height: 11px; */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 71px;
+    color: #5d6064;
+    margin-right: 27px;
+    cursor: pointer;
+}
+
+#navibar .freePass a {
+    color: #f71581;
+}
+
+#navibar .mainLoginContainer .loginPanel .loginBtn {
+    width: 62px;
+    vertical-align: middle;
+    height: 31px;
+    border-radius: 8px;
+    background-color: #4a4a4a;
+    position: relative;
+}
+
+#navibar .mainLoginContainer .loginPanel .loginBtn a {
+    font-size: 14px;
+    line-height: 31px;
+    letter-spacing: -0.28px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 0px;
+    text-align: center;
+    display: block;
+    width: 62px;
+    height: 31px;
+}
+
+#tmain {
+    width: 100%;
+    background-color: #fffafa;
+    border-bottom: 1px solid #ffe2e2;
+}
+
+/* #bestContainer {
+    height: 257px;
+}
+ */
+.bestList {
+    width: 100%;
+    height: 100%;
+}
+
+.bx-wrapper {
+    -moz-box-shadow: unset !important;
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
+    border: unset !important;
+    background: unset !important;
+    /*  margin-bottom: 0px !important; */
+    margin-bottom: 22px !important;
+}
+
+
+.bestTitle {
+    display: inline-block;
+    width: 160px;
+    height: 17px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.bestTitle p {
+    font-family: RixHeadGulimPM;
+    height: 17px;
+    font-size: 18px;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #2a2a2a;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+/* #bestContent {
+    margin-top: 20px;
+    margin-bottom: 22px;
+} */
+
+#bestContainer>div.bestTitle>p>span {
+    font-family: RixHeadGulimPM;
+    font-size: 18px;
+    letter-spacing: -0.9px;
+    color: #f71581;
+}
+
+#bestContent .bestUser div .bestImg .gender_female,
+#bestContent .bestUser div .bestImg .gender_male {
+    background-color: transparent;
+    background-image: url(//ntalk.me/img/ntalk_icon3.png);
+    background-repeat: no-repeat;
+    background-position: 0 -9999px;
+    display: inline-block;
+}
+
+#bestContent .bestUser,
+#bestContent .bestUser .bestInfo {
+    width: 130px;
+    height: 170px;
+    /* margin-right: 10px; */
+    border-radius: 14px;
+    /* background-color: #5d6064; */
+    display: inline-block;
+}
+
+#bestContent .bestUser .bestInfo {
+    z-index: 1100;
+    background-color: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    cursor: pointer;
+}
+
+#bestContent>div.bestUser>a>img {
+    width: 130px;
+    height: 170px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#bestContent .bestUser div .bestImg {
+    opacity: unset;
+}
+
+#bestContent .bestUser div .bestImg .gender_female,
+#bestContent .bestUser div .bestImg .gender_male {
+    width: 28px;
+    height: 28px;
+    z-index: 1300;
+    opacity: unset;
+    position: absolute;
+    top: 60px;
+    left: 51px;
+}
+
+#bestContent .bestUser div .bestImg .gender_female {
+    background-position: 0px -43px;
+}
+
+#bestContent .bestUser div .bestImg .gender_male {
+    background-position: -28px -43px;
+}
+
+#bestContent .bestUser div .bestNick {
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: -0.6px;
+    color: #ffffff;
+    margin-top: 99px;
+}
+
+/******************************** 실시간 회원 접속 **************************************************/
+#aside {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+#realTimeListContainer {
+    width: 292px;
+    height: 655px;
+    border: 1px solid #dee3eb;
+    border-radius: 8px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.realTimeUserList,
+.realTimeTitle,
+.genderSortation {
+    height: 49px;
+}
+
+.realTimeTitle .subject {
+    width: 135px;
+    height: 17px;
+    font-family: RixHeadGulimPM;
+    font-size: 18px;
+    /*line-height: 3.33;*/
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #2a2a2a;
+    margin-top: 31px;
+    margin-left: 21px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.realTimeTitle .subject p span {
+    color: #f71581;
+}
+
+.realTimeTitle .realTimeMore {
+    float: right;
+    margin-right: 21px;
+    margin-top: 34px;
+    color: rgba(62, 62, 62, 0.5);
+}
+
+.realTimeTitle .realTimeMore p {
+    display: inline-block;
+}
+
+.realTimeTitle div:nth-child(1) {
+    float: left;
+}
+
+.genderSortation .pink,
+.genderSortation .blue {
+    display: inline-block;
+    width: 128px;
+    height: 31px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.genderSortation .pink p,
+.genderSortation .blue p {
+    margin-top: 7px;
+    margin-right: 45px;
+    margin-left: 48px;
+    width: 38px;
+    height: 11px;
+    line-height: 1.5;
+    letter-spacing: -0.6px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.genderSortation .pink {
+    float: left;
+    margin-top: 20px;
+    margin-left: 13px;
+    margin-right: 7px;
+    background-color: #f9edfa;
+}
+
+.genderSortation .pink.pick {
+    /* 색상 수정 */
+    color: #ff3a97;
+    background-color: #ffe4f1;
+}
+
+.genderSortation .blue {
+    float: right;
+    color: #aeaeae;
+    margin-top: 4px;
+    margin-right: 14px;
+    background-color: #f8f8f8;
+}
+
+.genderSortation .blue.pick {
+    /* 색상 수정 */
+    color: #180daf;
+    background-color: #afb4fc;
+}
+
+#realList {
+    height: 100%;
+    margin-top: 11px;
+    margin-left: 21px;
+}
+
+#realList ul {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+#realList li {
+    list-style: none;
+    width: 100%;
+    height: 42px;
+    margin-bottom: 10px;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo {
+    width: 100%;
+    height: 42px;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .userImg {
+    margin: 0px;
+    float: left;
+}
+
+#userInfo .userImg img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer,
+#realTimeListContainer .realTimeUserList #userInfo .locationInfo {
+    margin: 0px;
+    display: block;
+    margin-left: 52px;
+    width: 100%;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer {
+    height: 22px;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .locationInfo {
+    /*  margin-bottom: 6px; */
+    height: 19px;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer div,
+#realTimeListContainer .realTimeUserList #userInfo .locationInfo div {
+    margin: 0px;
+    float: left;
+    line-height: 13px;
+    margin-right: 10px;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .userId {
+    color: #323232;
+    font-weight: 700;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .connectUser {
+    width: 17px;
+    height: 11px;
+    border: solid 1px #ff8cc2;
+    background-color: #ffe8f3;
+    font-size: 7px;
+    color: #ff3a97;
+    font-weight: 700;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .newUser {
+    width: 25px;
+    height: 11px;
+    border: solid 1px #ffaa65;
+    background-color: #fff8e8;
+    font-size: 7px;
+    font-weight: 700;
+    color: #ff9b49;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .hotUser {
+    width: 22px;
+    height: 11px;
+    border-radius: 6px;
+    border: solid 1px #e4a2ff;
+    background-color: #fbe8ff;
+    font-size: 7px;
+    font-weight: 700;
+    color: #d15eff;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .connectUser,
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .newUser,
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .hotUser {
+    margin-right: 2px;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .userId,
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .userAge,
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .connectUser,
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .newUser,
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .hotUser {
+    margin-top: 6px;
+    margin-bottom: 3px;
+    border-radius: 6px;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .userId p,
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .userAge p,
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .connectUser p,
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .newUser p,
+#realTimeListContainer .realTimeUserList #userInfo .infoContainer .hotUser p {
+    margin: 0px;
+    text-align: center;
+}
+
+#realTimeListContainer .realTimeUserList #userInfo div {
+    color: #cbcbcb;
+}
+
+/****************************** 지역별 접속 현황 *************************************************************/
+
+#realTimeLocationList {
+    width: 290px;
+    height: 331px;
+    border: 1px solid #dee3eb;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+#realTimeLocationList .titleContainer .title {
+    width: 68px;
+    height: 24px;
+    font-family: RixHeadGulimPB;
+    font-size: 18px;
+    /* line-height: 3.33; */
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #2a2a2a;
+    margin-left: 21px;
+    margin-top: 30px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+#realTimeLocationList .titleContainer .title span {
+    color: #f71581;
+}
+
+#realTimeLocationList .titleContainer .today {
+    display: inline-block;
+    float: right;
+    margin-top: 35px;
+    margin-right: 21px;
+}
+
+#realTimeLocationList .titleContainer .today .access {
+    color: #ff3a97;
+    font-weight: 700;
+}
+
+#realTimeLocationList .locationList {
+    width: 261px;
+    height: 250px;
+    margin-top: 19px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    margin-left: 15px;
+}
+
+#realTimeLocationList .locationList .middleLocation,
+#realTimeLocationList .locationList .bottomLocation {
+    width: 91px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#realTimeLocationList>div.locationList>div.middleLocation {
+    margin-left: 22px;
+}
+
+#realTimeLocationList>div.locationList>div.bottomLocation {
+    float: right;
+    margin-right: 30px;
+}
+
+#realTimeLocationList>div.locationList>div.bottomLocation div {
+    float: right;
+}
+
+#realTimeLocationList>div.locationList>div.middleLocation div,
+#realTimeLocationList>div.locationList>div.bottomLocation div {
+    color: #323232;
+    margin-bottom: 9.1px;
+}
+
+#realTimeLocationList>div.locationList>div.middleLocation div:nth-last-child(),
+#realTimeLocationList>div.locationList>div.bottomLocation div:nth-last-child() {
+    margin-bottom: 0px;
+}
+
+#realTimeLocationList>div.locationList>div.middleLocation div .hyphen,
+#realTimeLocationList>div.locationList>div.bottomLocation div .hyphen {
+    width: 6px;
+    height: 2px;
+    border-radius: 1.5px;
+    background-color: #ff6da1;
+}
+
+.top {
+    font-weight: 700;
+}
+
+#realTimeLocationList>div.locationList>div.middleLocation div .num,
+#realTimeLocationList>div.locationList>div.bottomLocation div .num {
+    color: #9e9e9e;
+}
+
+/**************************************  타임라인 (중앙)  ******************************************************/
+
+#cside,
+#myPage {
+    width: 640px;
+    height: 100%;
+    border: 1px solid #dee3eb;
+    border-radius: 8px;
+    margin-right: 15px;
+    margin-top: 25px;
+    z-index: 3;
+    display: inline-block;
+}
+
+#myPage {
+    margin-right: 15px !important;
+    margin-left: 0px !important;
+}
+
+#contentFrame {
+    height: 1487px;
+}
+
+#timeLineContainer>div.tab {
+    height: 111px;
+    border-bottom: 1px solid #ebeef3;
+}
+
+#timeLineContainer>div.tab>div.timeTitle {
+    margin-top: 31px;
+    margin-left: 31px;
+}
+
+#timeLineContainer>div.tab>div.timeTitle div {
+    display: inline-block;
+}
+
+#timeLineContainer>div.tab>div.timeTitle .t_title {
+    width: 74px;
+    height: 25px;
+    font-family: RixHeadGulimPM;
+    font-size: 18px;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #2a2a2a;
+    font-weight: 700;
+}
+
+#timeLineContainer>div.tab>div.timeTitle .t_title span {
+    color: #f71581;
+}
+
+#timeLineContainer>div.tab>div.timeTitle .plus_view {
+    float: right;
+    margin-top: 3px;
+    margin-right: 31px;
+    color: rgba(62, 62, 62, 0.5);
+    cursor: pointer;
+}
+
+#timeLineContainer>div.tab>div.timeFilter {
+    margin-top: 20px;
+    margin-bottom: 26px;
+    margin-left: 21px;
+    margin-right: 21px;
+    color: #8d8d8d;
+}
+
+#timeLineContainer>div.tab>div.timeFilter>div {
+    display: inline-block;
+}
+
+#timeLineContainer>div.tab>div.timeFilter>div .firstLocation,
+#timeLineContainer>div.tab>div.timeFilter>div .secondLocation {
+    display: inline-block;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+#mainContent #cmain {
+    align-items: unset;
+    /* height: 1487px; */
+}
+
+select {
+    width: 86px;
+    height: 30px;
+    /* 원하는 너비설정 */
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #ffffff;
+    color: rgba(141, 141, 141, 0.5);
+    /* 여백으로 높이 설정 */
+    /* font-family: inherit; */
+    font-size: 12px !important;
+    /* 폰트 상속 */
+    /* background: url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg) no-repeat 95% 50%; */
+    background: url(//ntalk.me/img/ntalk_select.png) no-repeat 95% 50%;
+    /* 네이티브 화살표 대체 */
+    border: 1px solid #e5e5e5;
+    border-radius: 20.5px;
+    /* iOS 둥근모서리 제거 */
+    -webkit-appearance: none;
+    /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#timeLineContainer>div.tab>div.timeFilter>div.gender>select {
+    width: 81px;
+}
+
+#timeLineContainer>div.tab>div.timeFilter>div.beforeAge,
+#timeLineContainer>div.tab>div.timeFilter>div.afterAge,
+#timeLineContainer>div.tab>div.timeFilter>div.gender,
+#timeLineContainer>div.tab>div.timeFilter>div.locationContainer>div.firstLocation,
+#timeLineContainer>div.tab>div.timeFilter>div.locationContainer>div.secondLocation,
+#timeLineContainer>div.tab>div.timeFilter>div.timeSearch {
+    margin-right: 4px;
+}
+
+#timeLineContainer>div.tab>div.timeFilter>div.locationContainer {
+    margin-right: 4px;
+}
+
+#first,
+#second {
+    width: 192px;
+    height: 30px;
+    font-size: 11px !important;
+}
+
+#first option,
+#second option {
+    font-size: 11px !important;
+}
+
+.timeFilter #first,
+.timeFilter #second {
+    width: 122px;
+    height: 30px;
+}
+
+#timeLineContainer>div.tab>div.timeFilter>div.timeSearch {
+    height: 29px;
+    width: 51px;
+    color: #ffffff;
+    border-radius: 20.5px;
+    background-color: #fa1a83;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 0px;
+    vertical-align: top;
+    line-height: 29px;
+}
+
+#timeLineContainer #writeTime {
+    width: 600px;
+    height: 174px;
+    border-radius: 8px;
+    border: solid 1px #e5e5e5;
+    margin-top: 22px;
+    margin-right: 20px;
+    margin-bottom: 22px;
+    margin-left: 20px;
+}
+
+#writeTitle {
+    width: 598px;
+    height: 43px;
+    display: flex;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f8f8f8;
+}
+
+#writeTitle .titleText {
+    font-family: Dotum;
+    font-size: 14px;
+    text-align: left;
+    color: #5d6064;
+    font-weight: 700;
+    margin-left: 32px;
+    margin-top: 15px;
+    line-height: 14px;
+}
+
+#writeProfile {
+    width: 540px;
+    height: 71px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#writeProfile .profileComment {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: -0.78px;
+    color: #8d8d8d;
+    font-weight: 700;
+    padding-top: 26.5px;
+}
+
+#writeProfile div .profilImg {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#writeProfile div .profilImg img {
+    width: 41px;
+    height: 41px;
+    border-radius: 20px;
+}
+
+#writeProfile div .content {
+    display: inline-block;
+    margin-left: 12px;
+    font-family: Dotum;
+    font-size: 13px;
+    letter-spacing: -0.78px;
+    text-align: left;
+    color: #8d8d8d;
+}
+
+#writeProfile div .content span {
+    color: #8d8d8d;
+    font-weight: 700;
+}
+
+#addInfo {
+    width: 540px;
+    height: 30px;
+    margin-top: 14px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 0px;
+}
+
+#addInfo .upload,
+#addInfo .iconTag,
+#addInfo .local {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    font-weight: 700;
+    font-family: Dotum;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(93, 96, 100, 0.6);
+}
+
+#addInfo .upload,
+#addInfo .iconTag {
+    margin-right: 6px;
+}
+
+#addInfo .upload {
+    width: 135px;
+}
+
+#addInfo .local {
+    width: 69px;
+}
+
+#addInfo .iconTag {
+    width: 145px;
+}
+
+#addInfo .upload .up_text,
+#addInfo .iconTag .iconTag_text {
+    margin-top: 9px;
+    margin-left: 38px;
+}
+
+#addInfo .local .local_text {
+    margin-top: 9px;
+    margin-left: 30px;
+}
+
+#realList #userInfo {
+    margin-left: 0px;
+}
+
+#userInfo {
+    margin-left: 21px;
+}
+
+#userInfo .connectUser {
+    width: 17px;
+    height: 11px;
+    border: solid 1px #ff8cc2;
+    background-color: #ffe8f3;
+    color: #ff3a97;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+#userInfo .newUser {
+    width: 25px;
+    height: 11px;
+    border: solid 1px #ffaa65;
+    background-color: #fff8e8;
+    color: #ff9b49;
+    margin-left: 0px;
+}
+
+#userInfo .hotUser {
+    width: 22px;
+    height: 11px;
+    border: solid 1px #e4a2ff;
+    background-color: #fbe8ff;
+    color: #d15eff;
+    margin-left: 0px;
+}
+
+#userInfo .connectUser,
+#userInfo .newUser,
+#userInfo .hotUser {
+    font-size: 7px;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-right: 2px;
+    margin-bottom: 0px;
+}
+
+#userInfo .connectUser p,
+#userInfo .newUser p,
+#userInfo .hotUser p {
+    margin-bottom: 0px;
+}
+
+#userInfo .userId {
+    height: 11px;
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.6px;
+    text-align: left;
+    /* color: #ff3a97; */
+    margin-left: 3px;
+    margin-bottom: 0px;
+}
+
+#userInfo .userId span {
+    font-weight: 400;
+}
+
+#timeLineContainer>ul>li>div.main_info {
+    display: inline-block;
+}
+
+#timeLineContainer>ul>li.number>div div.contentContianer {
+    width: 348px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#timeLineContainer>ul>li>div div.contentContianer .contentTitle,
+#timeLineContainer>ul>li>div div.contentContianer>div.commentContent {
+    width: 374px;
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5d6064;
+}
+
+#timeLineContainer>ul>li.number>div div.contentContianer .contentTitle {
+    font-weight: 700;
+}
+
+#timeLineContainer>ul>li>div div.contentContianer>div.commentContent {
+    overflow: hidden;
+    height: 32px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+#timeLineContainer>ul>li>div div.contentContianer>div.commentContent span {
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+#timeLineContainer>ul>li>div div.locationInfo {
+    width: 348px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+#timeLineContainer>ul>li>div div.locationInfo div {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 9px;
+    margin-bottom: 20px;
+}
+
+#timeLineContainer>ul>li>div div.locationInfo .firstLocation,
+#timeLineContainer>ul>li>div div.locationInfo .secondLocation {
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #cbcbcb;
+}
+
+#timeLineContainer>ul>li>div div.locationInfo .afterCreate {
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aeaeae;
+}
+
+#timeLineContainer>ul>li>div.ImgContainer {
+    display: inline-block;
+    position: relative;
+    width: 260px;
+    height: 150px;
+    z-index: 3;
+}
+
+#timeLineContainer>ul>li>div.ImgContainer img {
+    width: 78px;
+    height: 78px;
+    border: 2px solid white;
+    border-radius: 14px;
+    position: absolute;
+    top: 48.5px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+#timeLineContainer>ul>li>div div.ImgContainer {
+    display: inline-block;
+    position: relative;
+    width: 260px;
+    height: 150px;
+    z-index: 3;
+}
+
+#timeLineContainer>ul>li>div div.ImgContainer img {
+    width: 78px;
+    height: 78px;
+    border: 2px solid white;
+    border-radius: 14px;
+    position: absolute;
+    top: 48.5px;
+    cursor: pointer;
+}
+
+#timeLineContainer>ul>li>div.ImgContainer .oneImg {
+    left: 151px;
+}
+
+#timeLineContainer>ul>li>div.ImgContainer .twoImg {
+    left: 138px;
+}
+
+#timeLineContainer>ul>li>div.ImgContainer .threeImg {
+    left: 125px;
+}
+
+#timeLineContainer>ul>li>div.ImgContainer .fourImg {
+    left: 112px;
+}
+
+#timeLineContainer>ul>li>div.ImgContainer .fiveImg {
+    left: 99px;
+}
+
+#iconContainer {
+    margin-left: 19px;
+    margin-bottom: 29px;
+}
+
+#iconContainer .view,
+#iconContainer .bookmark,
+#iconContainer .talking {
+    width: 31px;
+    height: 31px;
+    background-color: #f8f8f8;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+#tooltipContent {
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: -0.6px;
+    text-align: left;
+    border-radius: 8px;
+    background-color: black;
+    color: #ffffff;
+    padding: 5px;
+    z-index: 10;
+    position: relative;
+}
+
+#tooltipContent::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+#writeTime div {
+    cursor: pointer;
+}
+
+/*****타임라인 글쓰기 팝업창 *******/
+/* #contentFrame {
+    position: relative;
+} */
+
+#wirtePopupContainer {
+    width: 220px;
+    height: 150px;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+#wirtePopupContainer .wpopTitle {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+#wirtePopupContainer .wpopContent {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#wirtePopupContainer .wpopBtn {
+    width: 100%;
+    height: 40px;
+}
+
+#wirtePopupContainer .wpopTitle {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#wirtePopupContainer>div.wpopTitle>div.closeBtn {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+}
+
+#wirtePopupContainer .wpopContent div {
+    color: #aeaeae;
+}
+
+#wirtePopupContainer .wpopBtn div {
+    display: inline-block;
+    line-height: 38px;
+    width: 109px;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    cursor: pointer;
+}
+
+#wirtePopupContainer .wpopBtn .wpopLoad {
+    border-right: 1px solid #e5e5e5;
+}
+
+/********************* 등록하기 팝업창 *******/
+#writepopup {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.77);
+    /*  opacity: 0.3; */
+    z-index: 30;
+}
+
+#timeWrite {
+    display: block;
+    position: absolute;
+    width: 600px;
+    height: 673px;
+    box-shadow: 0px 10px 9.9px 0.1px rgba(51, 51, 51, 0.23);
+    background-color: #ffffff;
+    z-index: 1000;
+    opacity: unset;
+}
+
+.contentTag div {
+    display: inline-block;
+    width: 390px;
+    height: 177px;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+}
+
+.contentTag div textarea {
+    width: 370px;
+    height: 157px;
+    margin: 10px;
+}
+
+#timeWrite #titleContainer {
+    height: 69px;
+    border-bottom: 0px;
+}
+
+#titleContainer .writeTitle {
+    float: left;
+    width: 155px;
+    height: 19px;
+    font-family: RixHeadGulimPM;
+    font-size: 20px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #2a2a2a;
+    margin-top: 50px;
+    margin-left: 232px;
+    font-weight: 700;
+}
+
+#titleContainer .writeTitle span {
+    color: #f71581;
+}
+
+#titleContainer .closeBtn {
+    cursor: pointer;
+    position: absolute;
+    right: 19px;
+    top: 19px;
+}
+
+#contentTitle {
+    height: 30px;
+    margin-top: 22px;
+}
+
+#contentTitle .titleText,
+#conTitle {
+    display: inline-block;
+}
+
+#contentTitle .titleText,
+.genderTag .genderTitle,
+.ageTag .ageTitle {
+    width: 25px;
+    height: 11px;
+    font-family: Dotum;
+    font-size: 12px;
+    line-height: 1.83;
+    text-align: left;
+    margin-left: 50px;
+    color: #5d6064;
+    font-weight: 700;
+}
+
+.contentTag .contentTitle {
+    width: 27px;
+    height: 11px;
+    font-family: Dotum;
+    font-size: 12px;
+    line-height: 1.83;
+    text-align: left;
+    margin-left: 50px;
+    color: #5d6064;
+    font-weight: 700;
+    border: 0px;
+}
+
+.locationTag .locationTitle,
+.imgTag .imgTitle {
+    width: 50px;
+    height: 11px;
+    font-family: Dotum;
+    font-size: 12px;
+    line-height: 1.83;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 61px;
+    color: #5d6064;
+    font-weight: 700;
+}
+
+#conTitle {
+    width: 390px;
+    height: 30px;
+    margin-left: 85px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    text-indent: 10px;
+}
+
+#timeLineAdd>div.genderTag,
+.ageTag {
+    margin-top: 13px;
+    height: 30px;
+    color: #8d8d8d;
+}
+
+.genderTag .genderTitle,
+.ageTag .ageTitle,
+.contentTag .contentTitle {
+    display: inline-block;
+    margin-right: 86px;
+}
+
+.genderTag .all,
+.genderTag .male,
+.genderTag .female {
+    display: inline-block;
+    width: 126px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 28px;
+    font-size: 11px;
+    color: #8d8d8d;
+    cursor: pointer;
+}
+
+.genderTag .all,
+.genderTag .female {
+    margin-right: 6px;
+}
+
+.genderPick {
+    color: #ffffff !important;
+    background-color: #3477e0 !important;
+}
+
+.ageTag .beforeAge,
+.ageTag .afterAge {
+    display: inline-block;
+}
+
+.ageTag .beforeAge select,
+.ageTag .afterAge select {
+    width: 187px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 11px !important;
+    color: #8d8d8d;
+    opacity: 1;
+    background: url(//ntalk.me/img/ntalk_select.png) no-repeat 95% 50%;
+}
+
+.locationTag {
+    margin-top: 13px;
+    height: 30px;
+}
+
+.locationTag .locationTitle {
+    float: left;
+    line-height: 28px;
+}
+
+.locationTag .firstLocation,
+.locationTag .secondLocation {
+    display: inline-block;
+}
+
+.locationTag .firstLocation select,
+.locationTag .secondLocation select {
+    width: 192px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #8d8d8d;
+    opacity: 1;
+    background: url(//ntalk.me/img/ntalk_select.png) no-repeat 95% 50%;
+}
+
+.locationTag .firstLocation select {
+    margin-right: 6px;
+}
+
+.imgTag {
+    margin-top: 13px;
+    height: 73px;
+}
+
+.imgTag .imgTitle {
+    /************** 높이 구해서 정렬해야함 **************/
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.imgTag .imgUp {
+    display: inline-block;
+    width: 73px;
+    height: 73px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    margin-right: 6px;
+    position: relative;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+#preview div img {
+    width: 73px !important;
+    border-radius: 4px;
+}
+
+.shadow {
+    width: 73px !important;
+    position: absolute;
+    height: 73px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.44);
+    /* opacity: 0.3; */
+    z-index: 1030;
+}
+
+.imgTag .imgUp:nth-child(6) {
+    padding-right: 0px;
+}
+
+.imgTag .imgUp input[type="file"] {
+    width: 73px;
+    height: 73px;
+    font-size: 29px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -ms-filter: alpha(opacity=0);
+    cursor: pointer;
+}
+
+#iconTag {
+    height: 15px;
+    margin-top: 13px;
+}
+
+#iconTag .iconTitle {
+    margin-left: 51px;
+    margin-right: 29px;
+    width: 80px;
+    height: 11px;
+    line-height: 1.83;
+    text-align: left;
+    color: #5d6064;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.btnContainer {
+    display: inline-block;
+}
+
+.btnContainer div {
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.btnContainer input {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.btnContainer div div {
+    width: 34px;
+    height: 15px;
+    background-color: yellow;
+}
+
+.btnContainer label {
+    margin-bottom: 0px;
+}
+
+input[type="radio"] {
+    position: absolute;
+    left: -999em;
+}
+
+input[type="radio"]+label {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+input[type="radio"]+label::before {
+    content: "";
+    display: inline-block;
+    vertical-align: -25%;
+    height: 2ex;
+    width: 2ex;
+    background-color: white;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 4px;
+    /* box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25); */
+    margin-right: 0.5em;
+}
+
+input[type="radio"]:checked+label::before {
+    background: radial-gradient(circle at center, #f71581 0.6ex, white 0.7ex);
+}
+
+input[type="radio"]+label::before {
+    border-radius: 50%;
+}
+
+.contentTag {
+    margin-top: 31px;
+}
+
+.contentTag .contentTitle {
+    vertical-align: top;
+}
+
+#time_input {
+    /* border-radius: 4px;
+    border: solid 1px #e5e5e5; */
+    border-bottom: 0px;
+    background-color: #ffffff;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+    white-space: -o-pre-wrap;
+    word-break: break-all;
+    overflow: visible;
+}
+
+#submitContainer {
+    margin-top: 20px;
+}
+
+#submitContainer input {
+    margin-left: 239px;
+    margin-right: 238px;
+    width: 123px;
+    height: 31px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #f71581;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+/**************************************** 이벤트 및 공지사항 *******************************************/
+#bside {
+    width: 290px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#bside .warpper .eventContainer {
+    width: 100%;
+    height: 424px;
+    border: 1px solid #dee3eb;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-top: 26px;
+}
+
+#bside .warpper .noticeContianer {
+    width: 100%;
+    height: 258px;
+    border: 1px solid #dee3eb;
+    border-radius: 8px;
+}
+
+#bside .warpper .noticeContianer .noticeTitle {
+    width: 100%;
+}
+
+#bside .warpper .noticeContianer .noticeTitle .ntcT {
+    width: 100px;
+    font-family: RixHeadGulimPM;
+    font-size: 18px;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #2a2a2a;
+    font-weight: 700;
+    margin-top: 31px;
+    margin-left: 21px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+#bside .warpper .noticeContianer .noticeTitle .ntcT span {
+    color: #f71581;
+}
+
+#bside .warpper .noticeContianer .noticeTitle .plus_view {
+    display: inline-block;
+    float: right;
+    margin-top: 34px;
+    margin-right: 21px;
+}
+
+#bside>div>div.noticeContianer>div.noticeContent .content {
+    margin-left: 21px;
+    margin-bottom: 4.5px;
+}
+
+#bside>div>div.noticeContianer>div.noticeContent .content a {
+    color: #555555;
+}
+
+.noti_info,
+.noti_event {
+    color: #323232;
+    font-weight: 700;
+}
+
+.noti_urgent {
+    color: #ff3a97;
+    font-weight: 700;
+}
+
+#bside>div>div.noticeContianer>div.noticeContent>div.content.\37 {
+    margin-bottom: 31px;
+}
+
+/*************************************** 회원사진 ******************************************************/
+
+#bside>div>div.memberImgContainer {
+    widows: 100%;
+    height: 353px;
+    margin-top: 15px;
+    border: 1px solid #dee3eb;
+    border-radius: 8px;
+}
+
+.memberImgContainer .memberTitle {
+    margin-top: 30px;
+    margin-left: 21px;
+    width: 70px;
+    font-family: RixHeadGulimPM;
+    font-size: 18px;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #2a2a2a;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.memberImgContainer .memberTitle span {
+    color: #f71581;
+}
+
+.memberImgContainer .plus_view {
+    display: inline-block;
+    float: right;
+    margin-top: 34px;
+    margin-right: 21px;
+}
+
+#bside>div>div.memberImgContainer>div.memberImageContainer>div.first_line {
+    margin-top: 25px;
+    margin-left: 15px;
+    /* display: inline-block; */
+}
+
+#bside>div>div.memberImgContainer>div.memberImageContainer>div.second_line,
+#bside>div>div.memberImgContainer>div.memberImageContainer>div.third_line {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#bside>div>div.memberImgContainer>div.memberImageContainer>div.first_line>div.memberImg,
+#bside>div>div.memberImgContainer>div.memberImageContainer>div.second_line>div.memberImg,
+#bside>div>div.memberImgContainer>div.memberImageContainer>div.third_line>div.memberImg {
+    width: 78px;
+    height: 78px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#bside>div>div.memberImgContainer>div.memberImageContainer>div.first_line:nth-last-child(),
+#bside>div>div.memberImgContainer>div.memberImageContainer>div.second_line:nth-last-child(),
+#bside>div>div.memberImgContainer>div.memberImageContainer>div.third_line:nth-last-child() {
+    margin-right: 15px;
+}
+
+#bside>div>div.memberImgContainer>div.memberImageContainer>div>div>a>img {
+    width: 78px;
+    height: 78px;
+    display: inline-block;
+    border-radius: 14px;
+}
+
+/***************************************** 채팅 목록  ***********************************************/
+
+#chatRoomContainer {
+    width: 76px;
+    position: absolute;
+    top: 446px;
+    left: 1590px;
+}
+
+/****************************************** 마이페이지 ***********************************************/
+
+#myPageheader {
+    height: 78px;
+}
+
+#myPageTitle {
+    width: 578px;
+    display: inline-block;
+    font-family: RixHeadGulimPM;
+    font-size: 17.5px;
+    letter-spacing: -0.88px;
+    text-align: left;
+    color: #2a2a2a;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-left: 31px;
+    margin-right: 31px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #ebeef3;
+}
+
+#myPageContent>div.accountContainer {
+    margin-top: 30px;
+}
+
+#myPageContent>div.accountContainer>div {
+    margin-left: 31px;
+    width: 57px;
+    height: 13px;
+    font-family: Nanum Gothic;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: -0.28px;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+#myPageContent>div.accountContent {
+    margin-top: 34px;
+    margin-left: 31px;
+    height: 46px;
+    width: 572px;
+    border-bottom: 1px dashed #ebeef3;
+    border-radius: 0.5px;
+}
+
+#myPageContent>div.accountContent>div.loginAccountContent>span {
+    margin-left: 10px;
+    width: 69px;
+    height: 11px;
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #aeaeae;
+}
+
+#myPageContent>div.accountContent>div.loginAccount {
+    margin-left: 90px;
+}
+
+#myPageContent>div.accountContent>div.loginAccountContent,
+#myPageContent>div.accountContent>div.loginAccount,
+#myPageContent>div.accountContent>div.accountChange,
+#myPageContent>div.accountContent>div.loginAccount>span:nth-child(2) {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#myPageContent>div.accountContent>div.loginAccountContent,
+#myPageContent>div.accountContent>div.loginAccount>span:nth-child(2) {
+    margin-top: 3px;
+}
+
+#myPageContent>div.accountContent>div.loginAccount>span:nth-child(2) {
+    color: #323232;
+}
+
+#myPageContent>div.accountContent>div.accountChange {
+    float: right;
+    width: 64px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: #4a4a4a;
+    cursor: pointer;
+}
+
+#myPageContent>div.accountContent>div.accountChange>span {
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: -0.72px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 10.5px;
+}
+
+#myPageContent>div.accountContent>div.accountChange>span>a {
+    color: #ffffff;
+}
+
+#myPageContent>div.accountContent>div.loginAccount>span.accountImg {
+    margin-right: 10px;
+}
+
+#myPageContent>div.accountContent>div.loginAccount>span.accountImg,
+#myPageContent>div.difAccountContent>div.difAccountId>div>span.anotherImg,
+#profileImg>label span,
+#memberInfoHeader>div.closeBtn span {
+    background-color: transparent;
+    background-image: url(//ntalk.me/img/ntalk_icon3.png);
+    background-repeat: no-repeat;
+    background-position: 0 -9999px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+#myPageContent>div.accountContent>div.loginAccount>span.accountImg.appORweb {
+    background-position: -140px -256px;
+}
+
+#myPageContent>div.accountContent>div.loginAccount>span.accountImg.google {
+    background-position: -240px -256px;
+}
+
+#myPageContent>div.accountContent>div.loginAccount>span.accountImg.kakako {
+    background-position: -215px -256px;
+}
+
+#myPageContent>div.accountContent>div.loginAccount>span.accountImg.naver {
+    background-position: -190px -256px;
+}
+
+#myPageContent>div.accountContent>div.loginAccount>span.accountImg.facebook {
+    background-position: -165px -256px;
+}
+
+#myPageContent>div.difAccountContent {
+    margin-top: 23px;
+    margin-left: 31px;
+    width: 572px;
+    border-bottom: 1px dashed #ebeef3;
+    border-radius: 0.5px;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountTitle,
+#myPageContent>div.difAccountContent>div.difAccountId {
+    display: inline-block;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountTitle {
+    height: 11px;
+    font-family: NAnum Gothic;
+    font-size: 12px;
+    line-height: 1.67;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #aeaeae;
+    vertical-align: top;
+    padding-top: 4px;
+    margin-left: 10px;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountId {
+    margin-left: 95px;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountId>div>span.anotherImg {
+    margin-right: 10px;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountId>div {
+    margin-bottom: 18px;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountId>div>span:nth-child(2) {
+    vertical-align: top;
+    margin-top: 6px;
+    color: #aeaeae;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountId>div>span.anotherImg.appORweb {
+    background-position: -140px -256px;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountId>div>span.anotherImg.google {
+    background-position: -240px -256px;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountId>div>span.anotherImg.kakako {
+    background-position: -215px -256px;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountId>div>span.anotherImg.naver {
+    background-position: -190px -256px;
+}
+
+#myPageContent>div.difAccountContent>div.difAccountId>div>span.anotherImg.facebook {
+    background-position: -165px -256px;
+}
+
+#myPageContent>div.pswContent {
+    margin-top: 23px;
+    margin-left: 31px;
+    width: 572px;
+    height: 48px;
+    border-bottom: 1px dashed #ebeef3;
+    border-radius: 0.5px;
+}
+
+#myPageContent>div.pswContent>div.pswTitle,
+#myPageContent>div.pswContent>div.psw,
+#myPageContent>div.pswContent>div.pswChange {
+    display: inline-block;
+}
+
+#myPageContent>div.pswContent>div.pswTitle {
+    margin-left: 7px;
+    font-family: NAnum Gothic;
+    font-size: 12px;
+    line-height: 1.67;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #aeaeae;
+}
+
+#myPageContent>div.pswContent>div.psw {
+    margin-left: 115px;
+}
+
+#myPageContent>div.pswContent>div.psw>span.pswNon {
+    color: #aeaeae;
+}
+
+#myPageContent>div.pswContent>div.psw>span.pswChangeDate {
+    margin-left: 10px;
+    color: #ff3a97;
+}
+
+#myPageContent>div.pswContent>div.pswChange {
+    float: right;
+    width: 52px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: #f71581;
+    font-size: 12px;
+    line-height: 0.83;
+    letter-spacing: -0.72px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#myPageContent>div.pswContent>div.pswChange>span {
+    width: 52px;
+    height: 25px;
+    line-height: 25px;
+}
+
+#myPageContent>div.phoneContent {
+    margin-top: 23px;
+    margin-left: 31px;
+    width: 572px;
+    height: 48px;
+    border-bottom: 1px dashed #ebeef3;
+    border-radius: 0.5px;
+}
+
+#myPageContent>div.phoneContent>div.phoneTitle,
+#myPageContent>div.phoneContent>div.phone,
+#myPageContent>div.phoneContent>div.phoneChange {
+    display: inline-block;
+}
+
+#myPageContent>div.phoneContent>div.phoneTitle {
+    margin-left: 10px;
+    color: #aeaeae;
+}
+
+#myPageContent>div.phoneContent>div.phone {
+    margin-left: 126px;
+    color: #aeaeae;
+}
+
+#myPageContent>div.phoneContent>div.phoneChange {
+    float: right;
+    width: 63px;
+    height: 25px;
+    border-radius: 8px;
+    border: solid 1px #dee3eb;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+#myPageContent>div.phoneContent>div.phoneChange>span {
+    width: 63px;
+    height: 25px;
+    line-height: 25px;
+}
+
+#myPageContent>div.contentContainer>div {
+    margin-left: 31px;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    text-align: left;
+    color: #2a2a2a;
+    margin-bottom: 33px;
+}
+
+#myPageContent>div.profileContent {
+    margin-left: 31px;
+    width: 572px;
+    border-bottom: 1px dashed #ebeef3;
+    border-radius: 0.5px;
+}
+
+#myPageContent>div.profileContent>div.profileTitle,
+#profileImg {
+    display: inline-block;
+    line-height: 1.67;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #aeaeae;
+}
+
+#myPageContent>div.profileContent>div.profileTitle {
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+#myPageContent #profileImg {
+    margin-left: 104px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+#preview,
+#clickImg {
+    display: inline-block;
+}
+
+#myPageContent #preview {
+    width: 100px;
+    height: 100px;
+}
+
+#profileImg>label {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    border-radius: 50px;
+    margin-bottom: 0px;
+    top: 73px;
+    left: 65px;
+    cursor: pointer;
+}
+
+#profileImg>label span {
+    width: 27px;
+    height: 27px;
+    background-position: -165px -256px;
+    display: inline-block;
+}
+
+#myPageContent>div.profileContent>label {
+    margin-bottom: 0px;
+    vertical-align: top;
+    float: right;
+    width: 77px;
+    height: 25px;
+    border-radius: 8px;
+    border: solid 1px #dee3eb;
+    background-color: #ffffff;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#myPageContent>div.nickContent,
+#myPageContent>div.genderContent,
+#myPageContent>div.ageContent,
+#myPageContent>div.locationContent {
+    margin-left: 31px;
+    width: 572px;
+    border-bottom: 1px dashed #ebeef3;
+    border-radius: 0.5px;
+}
+
+#myPageContent>div.nickContent>div.nickTitle,
+#myPageContent>div.nickContent>div.myNickname,
+#myPageContent>div.genderContent>div.genderTitle,
+#myPageContent>div.genderContent>div.gender,
+#myPageContent>div.ageContent>div.ageTitle,
+#myPageContent>div.ageContent>div.age,
+#myPageContent>div.locationContent>div.locationTitle,
+#myPageContent>div.locationContent>div.location {
+    display: inline-block;
+}
+
+#myPageContent>div.nickContent>div.nickTitle,
+#myPageContent>div.genderContent>div.genderTitle,
+#myPageContent>div.ageContent>div.ageTitle,
+#myPageContent>div.locationContent>div.locationTitle {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 1.67;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #aeaeae;
+}
+
+#myPageContent>div.nickContent>div.myNickname {
+    margin-left: 127px;
+    color: #323232;
+}
+
+#myPageContent>div.genderContent>div.gender,
+#myPageContent>div.ageContent>div.age,
+#myPageContent>div.locationContent>div.location {
+    margin-left: 139px;
+    color: #323232;
+}
+
+#myPageContent>div.locationContent>div.location>span.mylocation {
+    margin-right: 13px;
+}
+
+#navi>div>div.infoEdit {
+    margin-right: 15px;
+}
+
+#profileImg {
+    width: 50px;
+}
+
+#preview {
+    width: 50px;
+    border-radius: 50px;
+}
+
+#timeLineAdd>div.imgTag>div.imgUp>div:nth-child(6),
+#timeLineAdd>div.imgTag>div.imgUp>div:nth-child(6)>img {
+    border-radius: 4px;
+}
+
+#mytimeline>div.myTime {
+    height: 176px;
+    margin-left: 31px;
+    margin-right: 31px;
+    border-bottom: 1px dashed #ebeef3;
+}
+
+#mytimeline>div.myTime>div.myTimeTitle {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+#mytimeline>div.myTime>div.myTimeContent {
+    width: 572px;
+    height: 80px;
+    position: relative;
+}
+
+#mytimeline>div.nonTime {
+    cursor: pointer;
+}
+
+#mytimeline>div>div.myTimeContent>div.myComment {
+    display: inline-block;
+    line-height: 45px;
+}
+
+#mytimeline>div.myTime>div.myTimeContent>div.myProfileImg {
+    width: 78px;
+    height: 78px;
+    display: inline-block;
+    position: relative;
+}
+
+#mytimeline>div>div.myTimeContent>div.myProfileImg>img {
+    width: 78px;
+    height: 78px;
+    border-radius: 14px;
+    border: solid 3px #ffffff;
+    position: absolute;
+}
+
+#mytimeline>div>div.myTimeContent>div.myProfileImg>img.img_1 {
+    top: 0px;
+    left: 0px;
+}
+
+#mytimeline>div>div.myTimeContent>div.myProfileImg>img.img_2 {
+    top: 0px;
+    left: 15px;
+}
+
+#mytimeline>div>div.myTimeContent>div.myProfileImg>img.img_3 {
+    top: 0px;
+    left: 30px;
+}
+
+#mytimeline>div>div.myTimeContent>div.myProfileImg>img.img_4 {
+    top: 0px;
+    left: 45px;
+}
+
+#mytimeline>div>div.myTimeContent>div.myProfileImg>img.img_5 {
+    top: 0px;
+    left: 60px;
+}
+
+#mytimeline>div.myTime>div.myTimeContent>div.commentContainer {
+    width: 331px;
+    height: 51px;
+    position: absolute;
+    top: 14.5px;
+    left: 131px;
+}
+
+#mytimeline>div.myTime>div.myTimeContent>div.commentContainer>div.mycommentTitle {
+    font-weight: 700;
+}
+
+#mytimeline>div.myTime>div.myTimeContent>div.commentContainer>div.myComment {
+
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    height: 36px;
+}
+
+#mytimeline>div.myTime>div.myTimeContent>div.commentContainer>div.myComment>span {
+    height: 34px;
+    /* overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis; */
+}
+
+#myPageContent>div.photoContainer>div.photoTitle {
+    margin-left: 31px;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    text-align: left;
+    color: #2a2a2a;
+    margin-bottom: 33px;
+}
+
+#photoContent {
+    margin-left: 31px;
+    width: 575px;
+    border-bottom: 1px dashed #ebeef3;
+    border-radius: 0.5px;
+    padding-bottom: 30px;
+}
+
+#photoContent>div.imgUp {
+    margin-right: 12px;
+    width: 134px;
+    height: 166px;
+    position: relative;
+    display: inline-block;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+#photoContent>div:nth-child(4n + 0) {
+    margin-right: 0px;
+    vertical-align: top;
+}
+
+#photoContent>div.imgUp input[type="file"] {
+    position: absolute;
+    width: 134px;
+    height: 166px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#photoContent #preview {
+    width: 134px;
+    height: 166px;
+    z-index: 1100;
+}
+
+#photoContent #preview img {
+    width: 134px !important;
+}
+
+#photoContent .imgUp .plusImg,
+#photoContent .imgUp .closeBtn span,
+#memberPhoto>div.photoContent>div.imgUp>div.closeBtn>span,
+#phChangeHeader>div.closeBtn>span,
+#footer_c div .footerCSC .social span {
+    background-color: transparent;
+    background-image: url(//ntalk.me/img/ntalk_icon3.png);
+    background-repeat: no-repeat;
+    background-position: 0 -9999px;
+}
+
+#photoContent .imgUp .plusImg {
+    display: inline-block;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background-position: -252px -210px;
+    top: 62px;
+    left: 46px;
+    cursor: pointer;
+    background-color: teal;
+}
+
+#photoContent .imgUp .closeBtn span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -252px -182px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1050;
+    cursor: pointer;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffTitle {
+    margin-top: 40px;
+    margin-left: 31px;
+    width: 572px;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffTitle>span:nth-child(1) {
+    font-family: Nanum Gothic;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffTitle>span.cutoffBtn {
+    float: right;
+    width: 63px;
+    height: 25px;
+    border-radius: 8px;
+    border: solid 1px #dee3eb;
+    background-color: #ffffff;
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: -0.72px;
+    text-align: center;
+    color: #555555;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffContent {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffContent>div {
+    display: inline-block;
+    width: 200px;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffContent>div>label,
+#myPageContent>div.cutoffContainer>div.cutoffContent>div>div,
+#cutoffImg,
+#myPageContent>div.cutoffContainer>div.cutoffContent>div>div>div {
+    display: inline-block;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffContent>div>label {
+    vertical-align: top;
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: solid 1px #d8dbe6;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffContent>div>label span {
+    width: 18px;
+    height: 18px;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffContent>div>label input[type="checkbox"] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+#cutoffcheck:active+label:before {
+    transition-duration: 0;
+    filter: brightness(0.2);
+}
+
+#cutoffcheck+label {
+    position: relative;
+    padding-left: 26px;
+    font-weight: normal;
+}
+
+#cutoffcheck+label:before,
+#cutoffcheck+label:after {
+    box-sizing: content-box;
+    position: absolute;
+    content: "";
+    display: block;
+    left: 0;
+}
+
+#cutoffcheck+label:before {
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    margin-top: -10px;
+    border: 2px solid #d9d9d9;
+    text-align: center;
+}
+
+#cutoffcheck+label:after {
+    background-color: #00bad2;
+    top: 50%;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    transform: scale(0);
+    transform-origin: 50%;
+    transition: transform 200ms ease-out;
+}
+
+#cutoffcheck+label:after {
+    background-color: transparent;
+    top: 50%;
+    left: 5px;
+    width: 7px;
+    height: 4px;
+    margin-top: -5px;
+    border-style: solid;
+    border-color: #00bad2;
+    border-width: 0 0 3px 3px;
+    -moz-transform: rotate(-45deg) scale(0);
+    -ms-transform: rotate(-45deg) scale(0);
+    -webkit-transform: rotate(-45deg) scale(0);
+    transform: rotate(-45deg) scale(0);
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+#cutoffcheck:checked+label:before {
+    -moz-animation: borderscale 200ms ease-in;
+    -webkit-animation: borderscale 200ms ease-in;
+    animation: borderscale 200ms ease-in;
+}
+
+#cutoffcheck:checked+label:after {
+    content: "";
+    -moz-transform: rotate(-45deg) scale(1);
+    -ms-transform: rotate(-45deg) scale(1);
+    -webkit-transform: rotate(-45deg) scale(1);
+    transform: rotate(-45deg) scale(1);
+    -moz-transition: -moz-transform 200ms ease-out;
+    -o-transition: -o-transform 200ms ease-out;
+    -webkit-transition: -webkit-transform 200ms ease-out;
+    transition: transform 200ms ease-out;
+}
+
+/* #cutoffcheck {
+    display: none;
+} */
+
+/* #cutoffcheck {
+    width: 18px;
+    height: 18px;
+    background-color: #ffffff;
+
+} */
+
+#cutoffcheck:checked+label {
+    background-color: #3477e0;
+}
+
+#cutoffcheck:checked+label span {
+    background-color: #3477e0;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffContent>div>div {
+    position: relative;
+}
+
+#cutoffImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffContent>div>div>div {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffContent>div>div>div>div.cutoffNick {
+    letter-spacing: -0.6px;
+    text-align: left;
+    font-weight: 700;
+    color: #323232;
+}
+
+#myPageContent>div.cutoffContainer>div.cutoffContent>div>div>div>div.cutoffDate {
+    font-size: 11px;
+    text-align: left;
+    color: #8d8d8d;
+}
+
+#detail_see {
+    margin-top: 40.5px;
+    margin-left: 31px;
+    margin-bottom: 51px;
+    width: 578px;
+    height: 46px;
+    text-align: center;
+    border-radius: 3px;
+    border: solid 1px #ebeef3;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+#findPwLayer>div.resultContent {
+    margin-bottom: 20px;
+}
+
+#findPwLayer>div.resultContent>div.newPwContainer {
+    margin-bottom: 12px;
+}
+
+#findPwLayer>div.resultContent>div.newPwContainer>div.newPwTitle,
+#findPwLayer>div.resultContent>div.newPwConfirmContainer>div.newPwConfirmTitle {
+    margin-left: 50px;
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #5d6064;
+    display: inline-block;
+}
+
+#findPwLayer>div.resultContent>div.newPwConfirmContainer>div.newPwConfirmTitle {
+    vertical-align: top;
+}
+
+#findPwLayer>div.resultContent>div.newPwContainer>div.newPwContent,
+#findPwLayer>div.resultContent>div.newPwConfirmContainer>div.newPwConfirmContent {
+    display: inline-block;
+    margin-left: 49px;
+}
+
+#findPwLayer>div.resultContent>div.newPwContainer>div.newPwContent>label,
+#findPwLayer>div.resultContent>div.newPwConfirmContainer>div.newPwConfirmContent>label {
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    width: 240px;
+    height: 30px;
+    margin-bottom: 0px;
+}
+
+#findPwLayer>div.resultContent>div.newPwContainer>div.newPwContent>label input,
+#findPwLayer>div.resultContent>div.newPwConfirmContainer>div.newPwConfirmContent>label input {
+    width: 226px;
+    height: 28px;
+    margin-left: 11px;
+}
+
+#idBtn>div.cancellBtn {
+    width: 123px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: #aeaeae;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 105px;
+    cursor: pointer;
+}
+
+#idBtn>div.mypageSubBtn {
+    width: 123px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: #f71581;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    line-height: 31px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* #mytimeline>div.myTime>div.myTimeContent>div.commentContainer>div.mycommentTitle {
+    width: 331px;
+    height: 24px;
+} */
+
+#mytimeline>div.myTime>div.myTimeContent>div.myTimeEditBtn,
+#mytimeline>div.myTime>div.myTimeContent>div.myTimeDelBtn {
+    float: right;
+    width: 40px;
+    height: 25px;
+    border-radius: 8px;
+    border: solid 1px #dee3eb;
+    letter-spacing: -0.72px;
+    text-align: center;
+    color: #555555;
+    line-height: 25px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#mytimeline>div.nonTime {
+    width: 572px;
+    height: 51px;
+    border-bottom: 1px dashed #ebeef3;
+    border-radius: 0.5px;
+    margin-left: 41px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#memberInfoHeader>div.headerTitle,
+#phChangeHeader>div.headerTitle {
+    margin-top: 49px;
+    text-align: center;
+    font-family: Nanum Gothic;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    color: #5d6064;
+}
+
+#memberInfoHeader>div.closeBtn>span,
+#phChangeHeader>div.closeBtn>span {
+    width: 14px;
+    height: 14px;
+    background-position: -252px -196px;
+    position: absolute;
+    right: 19px;
+    top: 19px;
+    cursor: pointer;
+}
+
+#memberNick,
+#beforePhone {
+    margin-top: 22px;
+}
+
+#memberNick>div.nickTitle {
+    margin-right: 50px;
+}
+
+#memberNick>div.nickTitle,
+#memberGender>div.genderTitle,
+#memberAge>div.ageTitle,
+#memberPhoto>div.photoTitle,
+#memberLocal,
+#beforePhone>div.beforeTitle,
+#afterPhone>div.afterTitle {
+    margin-left: 50px;
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5d6064;
+}
+
+#beforePhone>div.beforeTitle,
+#afterPhone>div.afterTitle {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#memberNick>div.nickTitle,
+#memberNick>div.nickContent,
+#memberGender>div.genderTitle,
+#memberGender>div.genderContent,
+#memberAge>div.ageTitle,
+#memberAge>div.ageContent,
+#memberPhoto>div.photoTitle,
+#memberPhoto>div.photoContent,
+#memberPhoto>div.photoContent>div.imgUp,
+#memberPhoto>div.photoContent>div.infoText,
+#memberLocal>div.localTitle,
+#memberLocal .firstLocation,
+#memberLocal .secondLocation,
+#beforePhone>div.beforeTitle,
+#beforePhone>div.beforeContent,
+#afterPhone>div.afterTitle,
+#afterPhone>div.afterContent,
+#afterPh,
+#overlap_ph {
+    display: inline-block;
+}
+
+#memberNick>div.nickContent>label,
+#beforePhone>div.beforeContent>label,
+#afterPhone>div.afterContent>label {
+    width: 320px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+
+#beforePhone>div.beforeContent>label input {
+    margin-left: 10px;
+    width: 308px;
+    height: 28px;
+}
+
+#afterPh {
+    margin-left: 10px;
+    width: 258px;
+    height: 28px;
+}
+
+#nick,
+#beforePh,
+#afterPh {
+    margin-left: 7px;
+    width: 250px;
+    height: 28px;
+    font-size: 11px;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8d8d8d;
+    display: inline-block;
+}
+
+#overlap_nick,
+#overlap_ph {
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+    color: #323232;
+    cursor: pointer;
+}
+
+#memberGender,
+#memberAge,
+#memberPhoto,
+#memberLocal,
+#afterPhone {
+    margin-top: 13px;
+}
+
+#memberGender>div.genderTitle {
+    margin-right: 61px;
+
+}
+
+#memberGender>div.genderContent>label:nth-child(1) {
+    margin-right: 6px;
+}
+
+#memberGender>div.genderContent>label.gender {
+    width: 157px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #8d8d8d;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+#memberAge>div.ageTitle {
+    margin-right: 62px;
+    line-height: unset;
+}
+
+#memberAge>div.ageContent>select {
+    border-radius: 4px;
+    width: 320px;
+    height: 30px;
+    color: #8d8d8d;
+    cursor: pointer;
+}
+
+#memberPhoto>div.photoContent>div.imgUp {
+    width: 110px;
+    height: 110px;
+    position: relative;
+}
+
+#memberPhoto>div.photoTitle {
+    margin-right: 40px;
+    vertical-align: top;
+}
+
+#memberPhoto #preview,
+#memberPhoto #preview>img,
+#memberPhoto #preview>div>img {
+    width: 110px !important;
+    height: 110px;
+}
+
+#memberPhoto #form_photo {
+    height: 110px;
+}
+
+#memberPhoto #form_photo label {
+    margin-bottom: 0px;
+    height: 110px;
+    width: 110px;
+    cursor: pointer;
+}
+
+#memberImg {
+    width: 110px;
+    height: 110px;
+    display: none;
+    cursor: pointer;
+}
+
+#memberPhoto>div.photoContent>div.infoText {
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #c4c4c4;
+    margin-left: 10px;
+    vertical-align: bottom;
+}
+
+#memberLocal>div.localTitle {
+    margin-right: 62px;
+}
+
+#memberLocal .firstLocation,
+#memberLocal .secondLocation,
+#memberLocal .firstLocation #first,
+#memberLocal .secondLocation #second {
+    width: 157px;
+    height: 30px;
+}
+
+#memberLocal .firstLocation {
+    margin-right: 6px;
+}
+
+#memberLocal .firstLocation #first,
+#memberLocal .secondLocation #second {
+    border-radius: 4px;
+    color: #8d8d8d;
+    cursor: pointer;
+}
+
+#memberBtn,
+#phoneBtn {
+    margin-top: 20px;
+    margin-left: 192px;
+}
+
+#memberBtn>div,
+#phoneBtn>div {
+    width: 123px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: #f71581;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: left;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+#memberPhoto>div.photoContent>div.imgUp>div.closeBtn>span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -252px -182px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1050;
+    cursor: pointer;
+}
+
+.select_gen {
+    background-color: #3477e0 !important;
+    color: #ffffff !important;
+}
+
+/********************************************************************************************************/
+/*********************************** 새창 팝업 (프로필) **************************************************/
+/********************************************************************************************************/
+#profilePopup {
+    /* background-color: #d2d4d8; */
+    width: 100%;
+    height: 100%;
+}
+
+#profileInfo {
+    float: left;
+    width: 275px;
+    height: 591px;
+    border-radius: 14px;
+    margin-top: 15px;
+    margin-left: 16px;
+    margin-right: 15px;
+    background-color: #ffffff;
+}
+
+#popImg {
+    position: relative;
+}
+
+#popImg>img {
+    width: 275px;
+    height: 377px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+#popImg .imgCount {
+    width: 275px;
+    height: 31px;
+    background-color: rgba(0, 0, 0, 0.44);
+    position: absolute;
+    top: 346px;
+}
+
+#popImg .imgCount div {
+    float: right;
+    margin-right: 15px;
+    font-family: Dotum;
+    font-size: 12px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b7b7b7;
+    line-height: 31px;
+}
+
+#popImg .imgCount div .mainCount {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#popInfo {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 23px;
+}
+
+#popInfo>div.infoImg {
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: top;
+}
+
+#popInfo>div.infoImg>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#popInfo>div.infoContainer {
+    display: inline-block;
+}
+
+/* #popInfo>div.infoContainer>div.infoTitle,
+#popInfo>div.infoContainer>div.infoLocation,
+#popInfo>div.infoContainer>div.infoIcon {
+    display: inline-block;
+} */
+#popInfo>div.infoContainer>div.infoTitle {
+    margin-top: 9px;
+}
+
+#popInfo>div.infoContainer>div.infoTitle>div.infoNick,
+#popInfo>div.infoContainer>div.infoTitle>div.infoAge,
+#popInfo>div.infoContainer>div.infoLocation>div.firstLocal,
+#popInfo>div.infoContainer>div.infoLocation>div.secondLocal,
+#popInfo>div.infoContainer>div.infoIcon>div.connectUser,
+#popInfo>div.infoContainer>div.infoIcon>div.newUser,
+#popInfo>div.infoContainer>div.infoIcon>div.hotUser {
+    display: inline-block;
+}
+
+#popInfo>div.infoContainer>div.infoTitle>div.infoNick,
+#popInfo>div.infoContainer>div.infoTitle>div.infoAge {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    text-align: left;
+    color: #323232;
+}
+
+#popInfo>div.infoContainer>div.infoTitle>div.infoAge {
+    color: #ff3a97;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+#popInfo>div.infoContainer>div.infoLocation>div.firstLocal,
+#popInfo>div.infoContainer>div.infoLocation>div.secondLocal {
+    color: #cbcbcb;
+}
+
+.connectUser {
+    width: 17px;
+    height: 11px;
+    border: solid 1px #ff8cc2;
+    background-color: #ffe8f3;
+    font-size: 7px;
+    color: #ff3a97;
+    font-weight: 700;
+}
+
+.newUser {
+    width: 25px;
+    height: 11px;
+    border: solid 1px #ffaa65;
+    background-color: #fff8e8;
+    font-size: 7px;
+    font-weight: 700;
+    color: #ff9b49;
+}
+
+.hotUser {
+    width: 22px;
+    height: 11px;
+    border-radius: 6px;
+    border: solid 1px #e4a2ff;
+    background-color: #fbe8ff;
+    font-size: 7px;
+    font-weight: 700;
+    color: #d15eff;
+}
+
+#btnContainer .chatBtn,
+#btnContainer .timelineBtn,
+#btnContainer .photoBtn,
+#btnContainer .bookmarkBtn {
+    cursor: pointer;
+}
+
+#btnContainer>div.chatBtn,
+#btnContainer>div.timelineBtn {
+    display: inline-block;
+}
+
+#btnContainer>div.photoBtn,
+#btnContainer>div.bookmarkBtn {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#btnContainer>div.chatBtn,
+#btnContainer>div.timelineBtn,
+#btnContainer>div.photoBtn,
+#btnContainer>div.bookmarkBtn {
+    width: 118px;
+    height: 31px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    font-family: Dotum;
+    font-size: 12px;
+    line-height: 31px;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #aeaeae;
+}
+
+#btnContainer>div.chatBtn a,
+#btnContainer>div.timelineBtn a,
+#btnContainer>div.photoBtn a,
+#btnContainer>div.bookmarkBtn a {
+    color: #aeaeae;
+}
+
+#btnContainer>div.chatBtn,
+#btnContainer>div.photoBtn {
+    margin-left: 12.5px;
+    margin-right: 9px;
+}
+
+#btnContainer>div.timelineBtn,
+#btnContainer>div.bookmarkBtn {
+    margin-right: 12.5px;
+}
+
+.btnClick {
+    background-color: #ffe4f1 !important;
+    color: #ff3a97 !important;
+    font-weight: 700;
+}
+
+#popWrap {
+    margin-right: 10px;
+
+    width: 540px;
+    height: 542px;
+}
+
+#popTimeline {
+    border-radius: 14px;
+    position: absolute;
+    left: 306px;
+    width: 540px !important;
+    height: 591px;
+    background-color: #ffffff;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-family: Dotum;
+    font-size: 12px;
+    color: #aeaeae;
+}
+
+#poptimeContent {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 530px;
+    height: 542px;
+}
+
+#poptimeContent::-webkit-scrollbar {
+    width: 5px;
+}
+
+#poptimeContent::-webkit-scrollbar-thumb {
+    background: #cacaca;
+    border-radius: 2.5px;
+}
+
+#poptimeContent::-webkit-scrollbar-button {
+    /* display: none; */
+}
+
+#poptitle {
+    height: 49px;
+    position: relative;
+    border-bottom: 1px solid #dee3eb;
+}
+
+#poptitle .popSubject {
+    width: 210px;
+    height: 20px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-family: Dotum;
+    font-size: 14px;
+    letter-spacing: -0.7px;
+    text-align: center;
+    color: #8d8d8d;
+}
+
+#poptitle .popSubject span {
+    color: #5d6064;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+#poptitle>div.titleBtn {
+    float: right;
+    margin-top: 11px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+#poptitle>div.titleBtn>div.cutoff,
+#poptitle>div.titleBtn>div.report {
+    display: inline-block;
+    width: 46px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    text-align: center;
+    font-family: Dotum;
+    font-size: 11px;
+    letter-spacing: -0.55px;
+    color: #8d8d8d;
+    cursor: pointer;
+}
+
+#poptitle>div.titleBtn>div.cutoff {
+    color: #ff3a97;
+}
+
+#poptimeContent>div.popAge,
+#poptimeContent>div.popLocal,
+#poptimeContent>div.popGender,
+#poptimeContent>div.popTag,
+#poptimeContent>div.popSub,
+#poptimeContent>div.popCon,
+#poptimeContent>div.popImg {
+    margin-left: 35px;
+    margin-right: 5px;
+}
+
+#poptimeContent>div.popImg {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#poptimeContent .popAge {
+    margin-top: 30px;
+}
+
+#poptimeContent>div.popLocal,
+#poptimeContent>div.popGender,
+#poptimeContent>div.popTag,
+#poptimeContent>div.popSub,
+#poptimeContent>div.popCon {
+    margin-top: 25px;
+}
+
+#poptimeContent>div.popAge>div:nth-child(1),
+#poptimeContent>div.popLocal .localTitle,
+#poptimeContent>div.popGender .genderTitle {
+    margin-right: 42px;
+}
+
+#poptimeContent>div.popAge>div:nth-child(1),
+#poptimeContent .popAge .ageContent,
+#poptimeContent>div.popLocal .localTitle,
+#poptimeContent>div.popLocal .localContent,
+#poptimeContent>div.popGender .genderTitle,
+#poptimeContent>div.popGender .genderContent,
+#poptimeContent>div.popTag>div.tagTitle,
+#poptimeContent>div.popTag>div.tagContent,
+#poptimeContent>div.popSub>div:nth-child(1),
+#poptimeContent>div.popSub>div.subContent,
+#poptimeContent>div.popCon>div.conTitle,
+#poptimeContent>div.popCon>div.conContent,
+#poptimeContent>div.popImg>div.imgTitle,
+#poptimeContent>div.popImg>div.imgContent {
+    display: inline-block;
+}
+
+#poptimeContent .popAge .ageContent,
+#poptimeContent>div.popLocal .localContent,
+#poptimeContent>div.popGender .genderContent,
+#poptimeContent>div.popTag>div.tagContent,
+#poptimeContent>div.popSub>div.subContent,
+#poptimeContent>div.popCon>div.conContent {
+    color: #5d6064;
+    width: 386px;
+}
+
+#poptimeContent>div.popAge>div.ageContent>span:nth-child(1) {
+    margin-right: 10px;
+}
+
+#poptimeContent>div.popSub>div.subContent {
+    font-weight: 700;
+}
+
+#poptimeContent>div.popLocal>div.localContent>span.flocal {
+    margin-right: 5px;
+}
+
+#poptimeContent>div.popTag>div.tagTitle,
+#poptimeContent>div.popSub>div:nth-child(1),
+#poptimeContent>div.popCon>div.conTitle,
+#poptimeContent>div.popImg>div.imgTitle {
+    margin-right: 66px;
+}
+
+#poptimeContent>div.popImg>div.imgTitle {
+    vertical-align: top;
+}
+
+#poptimeContent>div.popCon>div.conTitle {
+    font-family: Dotum;
+    font-size: 12px;
+    color: #aeaeae;
+    line-height: 0px;
+    height: 100%;
+    vertical-align: top;
+    width: 24px;
+    height: 14px;
+    text-align: center;
+}
+
+#poptimeContent>div.popImg>div.imgContent>img,
+#poptimeContent>div.popImg>div.imgContent {
+    width: 386px;
+    border-radius: 14px;
+}
+
+#poptimeContent>div.popImg>div.imgContent>img {
+    margin-bottom: 15px;
+}
+
+#copywrite {
+    position: absolute;
+    top: 615px;
+    left: 296px;
+    font-family: Dotum;
+    font-size: 11px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #cbcbcb;
+}
+
+/********************************************************************************************************/
+/****************************************  푸터 영역 footer  css ****************************************/
+/********************************************************************************************************/
+#footer {
+    width: 100%;
+    height: 285px;
+}
+
+#footer_h {
+    border-bottom: solid 1px #dee3eb;
+}
+
+#footer_h>div.footerMenu {
+    height: 61px;
+}
+
+#footer_h>div.footerMenu>div {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    line-height: 61px;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #5d6064;
+}
+
+#footer_h>div.footerMenu>div>a {
+    color: #5d6064;
+}
+
+#footer_c>div>div.footerImg>span {
+    background-color: transparent;
+    background-image: url(//ntalk.me/img/ntalk_logo_g2.png);
+    background-repeat: no-repeat;
+    background-position: 0 -9999px;
+}
+
+#footer_c>div>div.footerImg>span {
+    background-position: 0px 0px;
+    width: 112px;
+    height: 43px;
+    display: inline-block;
+}
+
+#footer_c>div>div.footerImg,
+#footer_c>div>div.footerinfo,
+#footer_c>div>div.footerCSC,
+#footer_c>div>div.footerinfo>div.companyInfo>div,
+#footer_c>div>div.footerinfo>div:nth-child(3)>div {
+    display: inline-block;
+}
+
+#footer_c>div>div.footerImg {
+    margin-top: 45px;
+    margin-right: 49px;
+    vertical-align: top;
+}
+
+#footer_c>div>div.footerinfo {
+    margin-top: 52px;
+}
+
+#footer_c>div>div.footerinfo>div.companyTitle {
+    margin-bottom: 25px;
+    font-family: Nanum Gothic;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: -2.08px;
+    text-align: left;
+    color: #5d6064;
+}
+
+#footer_c>div>div.footerinfo>div.companyInfo>div,
+#footer_c>div>div.footerinfo>div:nth-child(3)>div {
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5d6064;
+    margin-right: 5px;
+}
+
+#footer_c>div>div.footerinfo>div.companyInfo>div.cu,
+#footer_c>div>div.footerinfo>div:nth-child(3)>div>div.cu {
+    color: #e6e6e6;
+}
+
+#footer_c>div>div.footerinfo>div.companyInfo>div.licenseResult>a {
+    color: #aeaeae;
+}
+
+#footer_c>div>div.footerinfo>div.copyWrite {
+    margin-top: 25px;
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aeaeae;
+}
+
+#footer_c>div>div.footerCSC {
+    margin-left: 146px;
+    vertical-align: top;
+    margin-top: 31px;
+}
+
+#footer_c>div>div.footerCSC>div.social>span.facebook,
+#footer_c>div>div.footerCSC>div.social>span.twitter,
+#footer_c>div>div.footerCSC>div.social>span.instagram {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+#footer_c>div>div.footerCSC>div.social>span.facebook {
+    background-position: 0px -185px;
+}
+
+#footer_c>div>div.footerCSC>div.social>span.twitter {
+    background-position: -32px -185px;
+}
+
+#footer_c>div>div.footerCSC>div.social>span.instagram {
+    background-position: -64px -185px;
+}
+
+#footer_c>div>div.footerCSC>div.serviceInfo {
+    margin-top: 23px;
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5d6064;
+}
+
+#footer_c>div>div.footerCSC>div.serviceInfo>span {
+    font-size: 20px;
+    font-family: Nanum Gothic;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #ff3a97;
+    margin-left: 10px;
+}
+
+#footer_c>div>div.footerCSC>div.operationTime {
+    margin-top: 24px;
+}
+
+#footer_c>div>div.footerCSC>div.operationTime>div,
+#footer_c>div>div.footerCSC>div.infoText {
+    display: inline-block;
+    font-family: Nanum Gotihc;
+    font-size: 12px;
+    line-height: 1.83;
+    text-align: left;
+    color: #5d6064;
+}
+
+#footer_c>div>div.footerCSC>div.operationTime>div.cu {
+    color: #e6e6e6;
+}
+
+#footer_c>div>div.footerCSC>div.infoText>span {
+    color: #ff3a97;
+    text-decoration: underline;
+}
+
+
+/********************************************************************************************************/
+/************************************  백그라운드 이미지 업로드 시작 **************************************/
+/********************************************************************************************************/
+
+#titleContainer .closeBtn span,
+#timeLineAdd .imgTag .imgUp .plusImg,
+#timeLineAdd .imgTag .imgUp .closeBtn span,
+#addInfo .upload .upImg,
+#addInfo .iconTag .iconTagImg,
+#addInfo .local .localImg,
+#header>div>div.headerImg span,
+#header>div>div.headerbanner>div.bannerImg span,
+.realTimeTitle .realTimeMore span,
+#bside>div>div.noticeContianer>div.noticeTitle>div.plus_view>span,
+#bside>div>div.memberImgContainer>div.plus_view>span,
+#timeLineContainer>div.tab>div.timeTitle>div.plus_view>span,
+#wirtePopupContainer>div.wpopTitle>div.closeBtn>span,
+#iconContainer .view span,
+#iconContainer .bookmark span,
+#iconContainer .talking span {
+    background-color: transparent;
+    background-image: url(//ntalk.me/img/ntalk_icon3.png);
+    background-repeat: no-repeat;
+    background-position: 0 -9999px;
+}
+
+#iconContainer .talking span.ta {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-position: -32px -265px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+#iconContainer .bookmark span.bo {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-position: -16px -265px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+#iconContainer .view span.vw {
+    width: 16px;
+    height: 12px;
+    display: inline-block;
+    background-position: 0px -267px;
+    margin-top: 9px;
+    margin-left: 8px;
+}
+
+#iconContainer .talking span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-position: -32px -249px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+#iconContainer .bookmark span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-position: -16px -249px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+#iconContainer .view span {
+    width: 16px;
+    height: 12px;
+    display: inline-block;
+    background-position: 0px -251px;
+    margin-top: 9px;
+    margin-left: 8px;
+}
+
+#wirtePopupContainer>div.wpopTitle>div.closeBtn>span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -252px -196px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#timeLineContainer>div.tab>div.timeTitle>div.plus_view>span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-position: -254px -62px;
+}
+
+.realTimeTitle .realTimeMore span,
+#bside>div>div.noticeContianer>div.noticeTitle>div.plus_view>span,
+#bside>div>div.memberImgContainer>div.plus_view>span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-position: -261px -149px;
+    margin-bottom: 1px;
+}
+
+#header>div>div.headerbanner>div.bannerImg span {
+    display: inline-block;
+    width: 52px;
+    height: 50px;
+    background-position: -210px 0px;
+}
+
+#header>div>div.headerImg span {
+    display: inline-block;
+    width: 202px;
+    height: 43px;
+    background-position: 0px 0px;
+}
+
+#timeLineAdd .imgTag .imgUp .closeBtn span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -252px -182px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1050;
+}
+
+#titleContainer .closeBtn span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -252px -196px;
+}
+
+#timeLineAdd .imgTag .imgUp .plusImg {
+    display: inline-block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-position: -252px -210px;
+    top: 29.5px;
+    left: 29.5px;
+}
+
+#addInfo .upload .upImg {
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    background-position: -194px -156px;
+    top: 6px;
+    left: 9px;
+}
+
+#addInfo .iconTag .iconTagImg {
+    position: absolute;
+    width: 24px;
+    height: 12px;
+    background-position: -218px -158px;
+    top: 9px;
+    left: 9px;
+}
+
+#addInfo .local .localImg {
+    position: absolute;
+    width: 16px;
+    height: 20px;
+    background-position: -246px -154px;
+    top: 5px;
+    left: 9px;
+}
+
+/********************************************************************************************************/
+/************************************  백그라운드 이미지 업로드 종료 **************************************/
+/********************************************************************************************************/
